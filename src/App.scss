@@ -1,6 +1,8 @@
 :root {
     --main-text-dark: #000;
     --main-text-light: #fff;
+    --logo-text-light: #DE2026;
+    --logo-text-dark: #005EB0;
     --navbar-brand-font: 'Ubuntu', sans-serif;
 }
 
@@ -40,18 +42,19 @@ header {
     letter-spacing: -2px;
     font-size: 3rem;
     margin-bottom: -1rem;
+    font-weight:900;
 
     .chuck {
-        color: navy;
+        color: var(--logo-text-light);
     }
     .whitfield {
-        color: red;
+        color: var(--logo-text-dark);
     }
     }  
     p {
         font-family: var(--navbar-brand-font);
         color: var(--main-text-dark);
-        color: navy;
+        color: var(--logo-text-light);
     }
 } 
 .nav-link {
@@ -59,37 +62,57 @@ header {
 }
 
 .hero-section {
-    background-color: orange;
+    position: relative;
 }
 
 .hero-container {
     display: flex;
     // flex-wrap: wrap;
-    padding: 1rem;
+    padding: 1rem 0 0;
     align-items:start;
-    justify-content:center;
+    justify-content:end;
     gap: 2rem;
     width: 100%;
     max-width: 999px;
     margin: 0 auto;
-    background-color: green;
+    // background-color: var(--logo-text-light);
+    position: relative;
+    background-image: url('./assets/b-k-HAl6CKxM3xU-unsplash.jpg');
+    background-size: cover;
 
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(4px);
+    }
     .hero-img{
-        width: 333px;
+        width: 444px;
         border-radius: 6px;
+        z-index: 1;
     }
 
     .hero-text {
-        min-width: 222px;
+        padding: 1rem;
+        width: 333px;
+        height: 333px;
+        background-color: var(--logo-text-dark);
+        position: absolute;
+        left: 22%;
 
         h1 {
-            font-size: 1.75rem;
+            font-size: 3rem;
         }
 
         p {
             font-size: 1.25rem;
         }
     }
+    
 }
 
 .home-images-section {
@@ -125,8 +148,36 @@ header {
     background-color: orange;
 }
 
-@media (max-width: 576px) {
-    .hero-container, .home-images-container {
-        flex-wrap: wrap;
+@media (max-width: 768px) {
+    .hero-container{
+        .hero-text {
+            left:5%;
+            width: 277px;
+            height: 277px;
+
+            h1{
+                font-size: 2.25rem;
+            }            
+        }        
+        .hero-img {
+            width: 388px;
+        }
+
     }
+
+}
+
+@media (max-width: 576px) {
+    // .hero-container, .home-images-container {
+    //     flex-wrap: wrap;
+    // }
+    .hero-container{
+        .hero-text {
+            left:1rem;
+        }        
+        .hero-img {
+            width: 311px;
+        }
+    }
+
 }
