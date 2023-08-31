@@ -10,7 +10,9 @@ const Header = () => {
  <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">
-            <img src={Sign} width='222' alt='Campaign sign - re-elect Chuck Whitfield for Monroe School Board Director District 2' />
+            {/* <img src={Sign} width='222' alt='Campaign sign - re-elect Chuck Whitfield for Monroe School Board Director District 2' /> */}
+            <h1><span className='chuck'>Chuck</span><span className='whitfield'>Whitfield</span></h1>
+            <p>for Monroe School board</p>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" >Menu</Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav" className='justify-content-md-end'>
