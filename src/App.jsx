@@ -5,6 +5,7 @@ import HomeImages from './components/HomeImages';
 import Footer from './components/Footer';
 import HomePriorities from './components/HomePriorities';
 import AboutChuck from './components/AboutChuck';
+import Delete from './components/Delete'
 
 function App() {
 
