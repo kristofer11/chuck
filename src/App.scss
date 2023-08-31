@@ -271,7 +271,7 @@ header {
 @media (max-width: 768px) {
     .hero-container{
         .hero-text {
-            left:5%;
+            left:2px;
             width: 277px;
             height: 211px;
 
@@ -293,10 +293,16 @@ header {
     // }
     .hero-container{
         .hero-text {
-            left:1rem;
+            left:2px;
+            width: 222px;
+            height: 188px;
+
+            h1 {
+                font-size: 2rem;
+            }
         }        
         .hero-img {
-            width: 311px;
+            width: 211px;
         }
     }
 }
