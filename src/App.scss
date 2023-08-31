@@ -52,7 +52,7 @@ header {
         transform: rotate(-90deg);
         color: var(--logo-text-dark);
         font-size: 0.75rem;
-        width: 18px;
+        width: 14px;
         text-align: end;
         margin-bottom: 22px;
         // display: flex;
@@ -130,18 +130,19 @@ header {
     .hero-text {
         padding: 1rem;
         width: 333px;
-        height: 333px;
+        height: 222px;
         background-color: var(--logo-text-dark);
         position: absolute;
         left: 22%;
+        top: 11%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         font-family: var(--main-font);
 
-        .commitment {
-            margin-block: 1.5rem;
-        }
+        // .commitment {
+        //     margin-block: 1rem;
+        // }
 
         h1 {
             font-size: 2.75rem;
@@ -179,13 +180,46 @@ header {
 
 }
 
+.about-chuck {
+    color: var(--main-text-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    .about-chuck-text{
+        max-width: 999px;
+        margin-top: 1rem;
+
+
+        h2 {
+            font-size: 2.5rem;
+            color: var(--logo-text-light);
+            font-family: var(--navbar-brand-font); 
+            margin-bottom: 1rem;   
+        }
+    }
+    p{
+        color: var(--main-text-dark);
+    }
+}
+
 .home-priorities {
     padding-block: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    .home-priorities-text {
+        max-width: 999px;
+        border-block: 3px solid var(--logo-text-dark-transparent);
+    }
     h2 {
         font-size: 2.5rem;
         color: var(--logo-text-light);
         font-family: var(--navbar-brand-font);
+        margin-bottom: 1rem;
+        margin-top: 2rem;
     }
 
     ul{
@@ -201,7 +235,7 @@ header {
     }
 
     details {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         color: var(--logo-text-dark);
         font-family: var(--main-font);
         font-weight: 600;
@@ -209,6 +243,10 @@ header {
 
     * {
         color: var(--logo-text-dark);
+    }
+
+    .last-details {
+        margin-bottom: 2rem;
     }
 }
 
@@ -226,7 +264,7 @@ header {
         .hero-text {
             left:5%;
             width: 277px;
-            height: 277px;
+            height: 211px;
 
             h1{
                 font-size: 2.25rem;

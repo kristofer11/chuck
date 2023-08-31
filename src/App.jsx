@@ -3,7 +3,8 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import HomeImages from './components/HomeImages';
 import Footer from './components/Footer';
-import HomePriorities from './components/HomePriorities'
+import HomePriorities from './components/HomePriorities';
+import AboutChuck from './components/AboutChuck';
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
         <Header />
         <Hero />
         <HomeImages />
-        <HomePriorities />
+        <HomePriorities />        
+        <AboutChuck />
         <Footer />
     </>
   )
