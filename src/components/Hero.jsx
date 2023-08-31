@@ -9,7 +9,7 @@ const Hero = () => {
                         <h1>Experience,</h1> 
                         <h1>Commitment, </h1>
                         <h1>Community: </h1>
-                        <h2>Chuck Whitfield for Monroe Schools</h2>
+                        <h2>Chuck Whitfield for Monroe School Board | District 2</h2>
                     {/* <p>Over the last four years it has
                         been my pleasure to serve as board director during some difficult times.
                         During these hard times we worked together overcoming hardships and finding
