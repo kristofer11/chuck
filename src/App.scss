@@ -5,6 +5,7 @@
     --logo-text-dark: #005EB0;
     --logo-text-dark-transparent: #005EB099;
     --navbar-brand-font: 'Ubuntu', sans-serif;
+    --main-font: 'Montserrat', sans-serif;
 }
 
 * {
@@ -29,14 +30,37 @@ header {
 
         .container{ 
             padding: 0;
+
+            .navbar-nav {
+                align-items: end;
+            }
         }
     }
 }
 
 .navbar-brand {
     display: flex;
-    flex-direction: column;
     align-items: end;
+
+    .navbar-brand-sec-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .navbar-brand-sec-2 {
+        transform: rotate(-90deg);
+        color: var(--logo-text-dark);
+        font-size: 0.75rem;
+        width: 18px;
+        text-align: end;
+        margin-bottom: 22px;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: end;
+        // align-items: end;
+
+    }    
 
     h1  {
     font-family: var(--navbar-brand-font);
@@ -56,11 +80,15 @@ header {
         font-family: var(--navbar-brand-font);
         color: var(--main-text-dark);
         color: var(--logo-text-light);
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
 } 
 .nav-link {
     font-size: 1.25rem;
+}
+
+.fb-logo {
+    width: 44px;
 }
 
 .hero-section {
@@ -109,13 +137,14 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        font-family: var(--main-font);
 
         .commitment {
             margin-block: 1.5rem;
         }
 
         h1 {
-            font-size: 3rem;
+            font-size: 2.75rem;
         }
 
         h2 {
@@ -150,8 +179,46 @@ header {
 
 }
 
+.home-priorities {
+    padding-block: 2rem;
+
+    h2 {
+        font-size: 2.5rem;
+        color: var(--logo-text-light);
+        font-family: var(--navbar-brand-font);
+    }
+
+    ul{
+        list-style-type: none;
+         
+        li{
+            font-size: 1.25rem;
+            color: var(--logo-text-light)
+        }
+    }
+    ul li:before {
+        content: '✓';
+    }
+
+    details {
+        font-size: 1.75rem;
+        color: var(--logo-text-dark);
+        font-family: var(--main-font);
+        font-weight: 600;
+    }
+
+    * {
+        color: var(--logo-text-dark);
+    }
+}
+
 .footer {
-    background-color: orange;
+    background-color: var(--logo-text-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 3rem;
 }
 
 @media (max-width: 768px) {
