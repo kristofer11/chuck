@@ -3,6 +3,7 @@
     --main-text-light: #fff;
     --logo-text-light: #DE2026;
     --logo-text-dark: #005EB0;
+    --logo-text-dark-transparent: #005EB099;
     --navbar-brand-font: 'Ubuntu', sans-serif;
 }
 
@@ -64,7 +65,7 @@ header {
 
 .hero-section {
     position: relative;
-    background-image: url('./assets/b-k-HAl6CKxM3xU-unsplash.jpg');
+    background-image: url('./assets/Wagner5.jpg');
     background-size: cover;
 
     &::before {
@@ -105,6 +106,13 @@ header {
         background-color: var(--logo-text-dark);
         position: absolute;
         left: 22%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .commitment {
+            margin-block: 1.5rem;
+        }
 
         h1 {
             font-size: 3rem;
