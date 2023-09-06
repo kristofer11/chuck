@@ -142,17 +142,21 @@ header {
         padding: 1rem;
         width: 333px;
         height: 222px;
-        background-color: var(--logo-text-dark);
+        // background-color: var(--logo-text-dark);
         position: absolute;
         left: 22%;
-        top: 11%;
+        top: 25%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         font-family: var(--main-font);
 
+        img {
+            width: 333px;
+        }
+
         h1 {
-            font-size: 2.75rem;
+            font-size: 1.3rem;
         }
 
         h2 {
@@ -200,13 +204,14 @@ header {
     .about-chuck-text {
         max-width: 999px;
         margin-top: 1rem;
-
+        text-align: justify;
 
         h2 {
             font-size: 2.5rem;
             color: var(--logo-text-light);
             font-family: var(--navbar-brand-font);
             margin-bottom: 1rem;
+            text-align: center;
         }
     }
 
@@ -220,10 +225,12 @@ header {
         ul li {
             color: var(--main-text-dark);
             list-style-type: none;
+            text-align: start;
         }
 
         ul li:before {
             content: '✓';
+            color: green;
         }
     }
 }
@@ -294,8 +301,12 @@ header {
             width: 277px;
             height: 211px;
 
-            h1 {
-                font-size: 2.25rem;
+            h1{
+                font-size: 1rem;
+            }
+
+            img {
+                width: 222px;
             }
         }
 
@@ -339,10 +350,7 @@ header {
             left: -6px;
             width: 255px;
             height: 177px;
-
-            h1 {
-                font-size: 2rem;
-            }
+            top: 15%;
         }
 
         .hero-img {

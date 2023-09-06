@@ -15,7 +15,7 @@ const AboutChuck = () => {
                         <li>Continuing to be fiscally responsible with taxpayer dollars.</li>
                     </ul>
                     </p>
-                <p>I will continue to serve our students, staff and community fairly and equitably, ensuring everyone has a seat at the table, while keeping student wellness and educational success at the forefront of all my decisions.</p>
+                <p><strong className="last-sentence" style={{fontSize: '1.4rem',}}>I will continue to serve our students, staff and community fairly and equitably, ensuring everyone has a seat at the table, while keeping student wellness and educational success at the forefront of all my decisions.</strong></p>
             </div>
 
         </section>
