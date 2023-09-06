@@ -24,6 +24,10 @@
     justify-content: center;
 }
 
+ul {
+    padding: 0;
+}
+
 header {
     width: 100%;
 
@@ -142,7 +146,7 @@ header {
         width: 444px;
         height: 222px;
         position: absolute;
-        left: 5%;
+        left: 7%;
         top: 29%;
         display: flex;
         flex-direction: column;
@@ -309,6 +313,8 @@ header {
     gap: 3rem;
 }
 
+
+
 @media (max-width: 768px) {
     .hero-container {
         .hero-text {
@@ -328,6 +334,7 @@ header {
 
         .hero-img {
             width: 388px;
+            margin-right: -3rem;
         }
 
     }
@@ -376,7 +383,7 @@ header {
 
         .hero-img {
             width: 255px;
-            margin-right: -2rem;
+            margin-right: -3.5rem;
             overflow: hidden;
         }
     }
