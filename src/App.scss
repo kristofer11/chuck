@@ -129,7 +129,6 @@ header {
     width: 100%;
     max-width: 999px;
     margin: 0 auto;
-    // background-color: var(--logo-text-light);
     position: relative;
 
     .hero-img {
@@ -140,26 +139,23 @@ header {
 
     .hero-text {
         padding: 1rem;
-        width: 333px;
+        width: 444px;
         height: 222px;
-        // background-color: var(--logo-text-dark);
         position: absolute;
-        left: 22%;
-        top: 25%;
+        left: 5%;
+        top: 29%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         font-family: var(--main-font);
 
         img {
-            width: 333px;
+            width: 444px;
         }
 
         h1 {
-            font-size: 1.3rem;
-        }
-
-        h2 {
+            width: 80%;
             font-size: 1.5rem;
         }
     }
@@ -316,15 +312,16 @@ header {
     .hero-container {
         .hero-text {
             left: 2px;
-            width: 277px;
-            height: 211px;
+            width: 311px;
+            // height: 211px;
 
             h1 {
-                font-size: 1rem;
+                font-size: 1.3rem;
+                width: 100%;
             }
 
             img {
-                width: 222px;
+                width: 311px;
             }
         }
 
@@ -367,14 +364,17 @@ header {
         .hero-text {
             left: -6px;
             width: 255px;
-            height: 177px;
-            top: 15%;
-
-
+            top: 12%;
+            img{
+                width: 255px;
+            }
+            h1 {
+                font-size: 1rem;
+            }
         }
 
         .hero-img {
-            width: 211px;
+            width: 255px;
             margin-right: -2rem;
             overflow: hidden;
         }
