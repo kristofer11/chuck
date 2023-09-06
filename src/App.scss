@@ -213,6 +213,11 @@ header {
             margin-bottom: 1rem;
             text-align: center;
         }
+
+
+        .last-sentence strong {
+            font-size: 1.33rem;
+        }
     }
 
     p,
@@ -222,18 +227,24 @@ header {
         font-family: 'Roboto', sans-serif;
         font-size: 1.25rem;
 
+        ul {
+            padding: 0;
+        }
+
         ul li {
             color: var(--main-text-dark);
             list-style-type: none;
-            text-align: start;
+            text-align: center;
         }
 
         ul li:before {
             content: '✓';
             color: green;
+            font-size: 1.15rem;
         }
     }
 }
+
 
 .home-priorities {
     padding-block: 2rem;
@@ -265,7 +276,9 @@ header {
     }
 
     ul li:before {
-        content: '✓';
+        content: '✓ ';
+        color: var(--logo-text-dark);
+        font-size: 1.4rem;
     }
 
     details {
@@ -273,6 +286,11 @@ header {
         color: var(--logo-text-dark);
         font-family: var(--main-font);
         font-weight: 600;
+
+        summary:hover{
+            transform: scale(1.09);
+            color: var(--logo-text-light);
+        }
 
     }
 
@@ -301,7 +319,7 @@ header {
             width: 277px;
             height: 211px;
 
-            h1{
+            h1 {
                 font-size: 1rem;
             }
 
@@ -319,19 +337,19 @@ header {
 }
 
 @media (max-width: 576px) {
-    // .hero-container, .home-images-container {
-    //     flex-wrap: wrap;
-    // }
 
     .navbar-brand {
         margin-left: 0.5rem;
+
         h1 {
             font-size: 2.75rem;
         }
-        p{
+
+        p {
             font-size: 1rem;
         }
-        .navbar-brand-sec-2{
+
+        .navbar-brand-sec-2 {
             font-size: 0.66rem;
         }
     }
@@ -351,6 +369,8 @@ header {
             width: 255px;
             height: 177px;
             top: 15%;
+
+
         }
 
         .hero-img {
