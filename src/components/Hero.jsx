@@ -8,7 +8,7 @@ const Hero = () => {
             <div className="hero-container">
                 <div className='hero-text'>
                         <img src={Sign} alt="Sign reading Re-Elect Chuck Whitfield for School Board - Monroe - District 2" />
-                        <h1>Experience, Commitment, Community</h1>
+                        <h1 className='d-none d-md-block'>Experience, Commitment, Community</h1>
 
                 </div>
                 <img className='hero-img' src={HeroImg} alt="Portrait of Chuck Whitfield, candidate for Monroe School Board Director, district 2" />
