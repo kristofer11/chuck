@@ -213,18 +213,23 @@ header {
         font-size: 2.5rem;
         color: var(--logo-text-light);
         font-family: var(--navbar-brand-font);
-        margin-bottom: 1rem;
+        margin-top: 1rem;
         text-align: center;
     }
 
     .about-chuck-text {
         max-width: 999px;
-        margin-top: 1rem;
+        margin-top: 2rem;
         text-align: justify;
 
         .last-sentence strong {
             font-size: 1.33rem;
         }
+    }
+
+    .about-chuck-text-2{
+        flex-wrap:nowrap;
+        margin-block: 2rem;
     }
 
     .about-chuck-img{
@@ -246,27 +251,38 @@ header {
         }
     }
 
+    .about-chuck-img-2 {
+        height: 222px;
+        margin: 0 1rem;
+        border-radius: 11px;
+        border-radius: 11px;
+        filter: drop-shadow(0 0 0.25rem var(--main-text-dark));
+    }
+
+    ul {
+        padding: 0;
+        color: var(--main-text-dark);
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.25rem;
+    }
+
+    ul li {
+        color: var(--main-text-dark);
+        list-style-type: none;
+        text-align: start;
+    }
+
+    ul li:before {
+        content: '✅ ';
+        // font-size: 1.15rem;
+    }
+
     p,
     p em,
     p strong {
         color: var(--main-text-dark);
         font-family: 'Roboto', sans-serif;
         font-size: 1.25rem;
-
-        ul {
-            padding: 0;
-        }
-
-        ul li {
-            color: var(--main-text-dark);
-            list-style-type: none;
-            text-align: center;
-        }
-
-        ul li:before {
-            content: '✅ ';
-            // font-size: 1.15rem;
-        }
     }
 }
 
@@ -404,6 +420,18 @@ header {
 
     }
 
+    .about-chuck .about-chuck-text-2{
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .about-chuck-img-2{
+            width: 222px;
+            height: 222px;
+        }
+        ul, ul li, p {
+            text-align: center;
+        }
+    }
 }
 
 @media (max-width: 576px) {

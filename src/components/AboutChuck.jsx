@@ -1,5 +1,5 @@
 import Ocean from '../assets/oceanSquare.png'
-
+import Headshot from '../assets/mainPortrait.jpg'
 
 const AboutChuck = () => {
     return (
@@ -21,14 +21,19 @@ const AboutChuck = () => {
 
                 </div>
 
-                <p style={{ textAlign: 'center' }}><strong>I remain committed to the following:</strong>
-                    <ul>
-                        <li>Prioritizing the education of our students, collaborating with the community</li>
-                        <li>Building partnerships and sharing ideas - ensuring teachers and staff are supported and equipped with tools they need to provide a quality education for every student</li>
-                        <li>Partnering with parents/guardians in the education of their children</li>
-                        <li>Continuing to be fiscally responsible with taxpayer dollars.</li>
-                    </ul>
-                </p>
+                <div className='d-flex about-chuck-text-2 align-items-center'>
+                    <div>
+                        <p><strong>I remain committed to the following:</strong></p>
+                        <ul>
+                            <li>Prioritizing the education of our students, collaborating with the community</li>
+                            <li>Building partnerships and sharing ideas - ensuring teachers and staff are supported and equipped with tools they need to provide a quality education for every student</li>
+                            <li>Partnering with parents/guardians in the education of their children</li>
+                            <li>Continuing to be fiscally responsible with taxpayer dollars.</li>
+                        </ul>                        
+                    </div>
+                    <img className='about-chuck-img-2' src={Headshot} alt="" />
+                </div>
+
                 <p className="last-sentence"><strong>I will continue to serve our students, staff and community fairly and equitably, ensuring everyone has a seat at the table, while keeping student wellness and educational success at the forefront of all my decisions.</strong></p>
             </div>
         </section>
