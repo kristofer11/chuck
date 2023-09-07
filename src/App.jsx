@@ -5,6 +5,7 @@ import HomeImages from './components/HomeImages';
 import Footer from './components/Footer';
 import HomePriorities from './components/HomePriorities';
 import AboutChuck from './components/AboutChuck';
+import Endorsements from './components/Endorsements'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <HomeImages />
         <HomePriorities />        
         <AboutChuck />
+        <Endorsements />
         <Footer />
     </>
   )

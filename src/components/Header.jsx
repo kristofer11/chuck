@@ -39,6 +39,13 @@ const Header = () => {
                             >
                                 <Nav.Link>Priorities</Nav.Link>
                             </ScrollLink>
+                            <ScrollLink
+                                to="endorsements"
+                                smooth={true}
+                                duration={500}
+                            >
+                                <Nav.Link>Endorsements</Nav.Link>
+                            </ScrollLink>
 
                             {/* <Nav.Link href="#home-priorities">Priorities</Nav.Link> */}
                             <Nav.Link href="https://www.facebook.com/profile.php?id=100094757426779" target="_blank" ><img src={FbLogo} className='fb-logo' /></Nav.Link>

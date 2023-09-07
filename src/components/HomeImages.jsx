@@ -2,17 +2,16 @@ import Kirk from '../assets/kirkSquare.png';
 import Ocean from '../assets/oceanSquare.png';
 import Ruby from '../assets/rubySquare.png';
 import LaceyErin from '../assets/laceyErinSquare.png'
-import Christie from '../assets/christy.jpg';
-import { Card } from 'react-bootstrap';
+import Christie from '../assets/christy square.png';
 
 const HomeImages = () => {
     return (
         <section className="home-images-section d-flex">
             <div className="home-images-container">
-                <img src={Ruby} alt='' />
-                <img src={Kirk} alt='' />
-                <img src={Ocean} alt='' />
-                <img src={LaceyErin} alt='' />
+                <img src={Ruby} alt='Child walking in road holding Chuck Whitfield for Monroe School Board member sign' />
+                <img src={Kirk} alt='Chuck Whitfield posing for photo with former State Senator Kirk Pearson.' />
+                <img src={Christie} alt='Woman holding hand of child and Chuck Whitfield for Monroe School board sign' />
+                <img src={LaceyErin} alt='Two young ladies posing for a photo with their Chuck Whitfield School Board signs.' />
             </div>
         </section>
     )
