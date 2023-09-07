@@ -334,6 +334,13 @@ header {
         color: var(--logo-text-dark);
         font-family: var(--main-font);
         font-weight: 600;
+        margin-block: 1rem;
+
+        summary {
+            background-color: var(--logo-text-light);
+            border-radius: 11px;
+            padding-inline: 0.5rem;
+        }
 
         summary:hover {
             transform: scale(1.09);
