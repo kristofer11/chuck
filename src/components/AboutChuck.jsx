@@ -1,4 +1,5 @@
 import Ocean from '../assets/oceanSquare.png'
+import OceanLong from '../assets/IMG_7382.jpg'
 import Headshot from '../assets/mainPortrait.jpg'
 
 const AboutChuck = () => {
@@ -6,11 +7,11 @@ const AboutChuck = () => {
         <section className="about-chuck">
             <h2>About Chuck</h2>
             <div className="about-chuck-img-small d-block d-lg-none">
-                <img src={Ocean} alt="Chuck and Nancy Whitfield at the Oregon coast with waves in background." />
+                <img src={OceanLong} alt="Chuck and Nancy Whitfield at the Oregon coast with waves in background." />
             </div>
 
             <div className="about-chuck-text">
-                <div className='d-flex'>
+                <div className='d-flex align-items-center'>
                     <div className="about-chuck-img d-none d-lg-block">
                         <img src={Ocean} alt="Chuck and Nancy Whitfield at the Oregon coast with waves in background." />
                     </div>
@@ -22,13 +23,13 @@ const AboutChuck = () => {
                 </div>
 
                 <div className='d-flex about-chuck-text-2 align-items-center'>
-                    <div>
+                    <div className='commitment-card'>
                         <p><strong>I remain committed to the following:</strong></p>
                         <ul>
                             <li>Prioritizing the education of our students, collaborating with the community</li>
                             <li>Building partnerships and sharing ideas - ensuring teachers and staff are supported and equipped with tools they need to provide a quality education for every student</li>
                             <li>Partnering with parents/guardians in the education of their children</li>
-                            <li>Continuing to be fiscally responsible with taxpayer dollars.</li>
+                            <li>Continuing to be fiscally responsible with taxpayer dollars</li>
                         </ul>                        
                     </div>
                     <img className='about-chuck-img-2' src={Headshot} alt="" />

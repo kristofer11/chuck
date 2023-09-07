@@ -44,7 +44,7 @@ header {
             .navbar-nav {
                 align-items: end;
 
-                a{
+                a {
                     color: var(--logo-text-dark);
 
                     &:hover {
@@ -74,11 +74,6 @@ header {
         width: 14px;
         text-align: end;
         margin-bottom: 22px;
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: end;
-        // align-items: end;
-
     }
 
     h1 {
@@ -227,35 +222,46 @@ header {
         }
     }
 
-    .about-chuck-text-2{
-        flex-wrap:nowrap;
+    .about-chuck-text-2 {
+        flex-wrap: nowrap;
         margin-block: 2rem;
+
+        .commitment-card {
+            background-color: var(--logo-text-dark-transparent);
+            width: fit-content;
+            padding: 1rem;
+
+            p, ul, li, strong {
+                color: var(--main-text-light)
+            }
+            strong{
+                font-size: 1.5rem;
+            }
+        }
     }
 
-    .about-chuck-img{
-        img{
+    .about-chuck-img {
+        img {
             height: 366px;
             margin: 0 1rem;
-            border-radius: 11px;
-            border-radius: 11px;
+            border-radius: 22px 0;
             filter: drop-shadow(0 0 0.25rem var(--main-text-dark));
         }
     }
 
     .about-chuck-img-small {
-        img{
-            height: 288px;
+        img {
+            height: 266px;
             margin: 1rem;
-            border-radius: 11px;
+            border-radius: 22px 0;
             filter: drop-shadow(0 0 0.25rem var(--main-text-dark));
         }
     }
 
     .about-chuck-img-2 {
-        height: 222px;
+        height: 266px;
         margin: 0 1rem;
-        border-radius: 11px;
-        border-radius: 11px;
+        border-radius: 22px 0;
         filter: drop-shadow(0 0 0.25rem var(--main-text-dark));
     }
 
@@ -329,7 +335,7 @@ header {
         font-family: var(--main-font);
         font-weight: 600;
 
-        summary:hover{
+        summary:hover {
             transform: scale(1.09);
             color: var(--logo-text-light);
         }
@@ -357,15 +363,15 @@ header {
     justify-content: center;
     min-height: 444px;
 
-    .endorsements-card{
+    .endorsements-card {
         background-color: var(--logo-text-dark-transparent);
         width: fit-content;
         padding: 1rem;
-        border-radius: 11px;
-        filter: drop-shadow(0 0 0.33rem var(--main-text-dark));
-        backdrop-filter: blur(0.8px);
+        border-radius: 6px;
+        // filter: drop-shadow(0 0 0.33rem var(--main-text-dark));
+        backdrop-filter: blur(3.5px);
 
-        ul{
+        ul {
             list-style-type: none;
         }
     }
@@ -380,10 +386,14 @@ header {
 
     h4 {
         color: var(--main-text-light);
-        span{
+
+        span {
             color: var(--logo-text-light);
         }
-        em{font-size: 88%}
+
+        em {
+            font-size: 88%
+        }
     }
 }
 
@@ -420,15 +430,18 @@ header {
 
     }
 
-    .about-chuck .about-chuck-text-2{
+    .about-chuck .about-chuck-text-2 {
         justify-content: center;
         flex-wrap: wrap;
 
-        .about-chuck-img-2{
-            width: 222px;
-            height: 222px;
+        .about-chuck-img-2 {
+            height: 288px;
+            margin-top: 2rem;
         }
-        ul, ul li, p {
+
+        ul,
+        ul li,
+        p {
             text-align: center;
         }
     }
@@ -466,9 +479,11 @@ header {
             left: -6px;
             width: 255px;
             top: 12%;
-            img{
+
+            img {
                 width: 255px;
             }
+
             h1 {
                 font-size: 1rem;
             }
