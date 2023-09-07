@@ -231,10 +231,14 @@ header {
             width: fit-content;
             padding: 1rem;
 
-            p, ul, li, strong {
+            p,
+            ul,
+            li,
+            strong {
                 color: var(--main-text-light)
             }
-            strong{
+
+            strong {
                 font-size: 1.5rem;
             }
         }
@@ -331,22 +335,31 @@ header {
 
     details {
         font-size: 1.5rem;
-        color: var(--logo-text-dark);
         font-family: var(--main-font);
         font-weight: 600;
         margin-block: 1rem;
 
+        ul {
+            background-color: var(--logo-text-dark);
+            border-radius: 11px;
+            margin-top: 0.5rem;
+
+            li {
+                color: var(--main-text-light)
+            }
+        }
+
         summary {
-            background-color: var(--logo-text-light);
+            background-color: var(--logo-text-dark);
             border-radius: 11px;
             padding-inline: 0.5rem;
             filter: drop-shadow(0 0 0.25rem var(--main-text-dark));
-
+            color: var(--main-text-light)
         }
 
         summary:hover {
-            transform: scale(1.09);
-            background-color: var(--logo-text-light);
+            transform: scale(1.04);
+            background-color: var(--logo-text-dark-transparent);
         }
 
     }
@@ -371,6 +384,9 @@ header {
     align-items: center;
     justify-content: center;
     min-height: 444px;
+    width: 999px;
+    max-width: 100%;
+    align-self: center;
 
     .endorsements-card {
         background-color: var(--logo-text-dark-transparent);

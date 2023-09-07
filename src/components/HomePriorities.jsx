@@ -9,14 +9,12 @@ const HomePriorities = () => {
                     <summary>Take responsibility for school district governance</summary>
                     <ul>
                         <li>Adopt policies based on best practices with the belief that all students can obtain high levels of achievement.</li>
-                        <li> Work together as an effective team
-                            - board and Supterintendent.</li>
-                        <li>Lead in the development of a vision that is supported by schools and
-                            community.</li>
+                        <li> Work together as an effective team - board and Supterintendent.</li>
+                        <li>Lead in the development of a vision that is supported by schools and community</li>
                     </ul>
                 </details>
                 <details>
-                    <summary>Hold district accountable for meeting student learning expectations.</summary>
+                    <summary>Hold district accountable for meeting student learning expectations</summary>
                     <ul>
                         <li>Set high expectations for student learning.</li>
                         <li> Belief that every student's learning can improve, regardless of circumstances.</li>
