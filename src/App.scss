@@ -329,7 +329,7 @@ header {
 
     ul li:before {
         content: '✓ ';
-        color: var(--logo-text-dark);
+        color: var(--logo-text-light);
         font-size: 1.4rem;
     }
 
@@ -358,8 +358,11 @@ header {
         }
 
         summary:hover {
-            transform: scale(1.04);
+            transform: scale(1.02);
             background-color: var(--logo-text-dark-transparent);
+            transition: background-color 0.5s ease;
+            transition: transform 0.5s ease;
+
         }
 
     }
