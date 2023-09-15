@@ -551,6 +551,7 @@ header {
     font-size: 1.75rem;
     padding: 1rem;
     margin-bottom: 0;
+    max-width: 100%;
 
     a {
         color: var(--logo-text-dark);
@@ -589,8 +590,8 @@ header {
             transition: color 0.3s, text-decoration 0.3s; 
             padding: 5px;
             border-radius: 6px;
-            background-color: #5c7494;
-            border: 1px solid var(--main-text-light);
+            overflow-wrap: break-word;
+            color: #01FC3A;
 
             &:hover {
                 color: var(--logo-text-dark);
