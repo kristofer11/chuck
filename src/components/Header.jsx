@@ -11,7 +11,7 @@ const Header = () => {
         <header>
             <Navbar expand="lg" className="bg-body-tertiary">
                 <Container>
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="/">
                         {/* <img src={Sign} width='222' alt='Campaign sign - re-elect Chuck Whitfield for Monroe School Board Director District 2' /> */}
                         <div className='navbar-brand-sec-1'>
                             <h1><span className='chuck'>Chuck</span><span className='whitfield'>Whitfield</span></h1>
@@ -22,7 +22,7 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" >Menu</Navbar.Toggle>
                     <Navbar.Collapse id="basic-navbar-nav" className='justify-content-md-end'>
                         <Nav >
-                            <Nav.Link href="#home">Home</Nav.Link>
+
 
                             <ScrollLink
                                 to="about-chuck"
@@ -46,6 +46,8 @@ const Header = () => {
                             >
                                 <Nav.Link>Endorsements</Nav.Link>
                             </ScrollLink>
+
+                            <Nav.Link href="/contact">Contact/Donate</Nav.Link>
 
                             {/* <Nav.Link href="#home-priorities">Priorities</Nav.Link> */}
                             <Nav.Link href="https://www.facebook.com/profile.php?id=100094757426779" target="_blank" ><img src={FbLogo} className='fb-logo' /></Nav.Link>

@@ -1,22 +1,28 @@
 import './App.scss';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import HomeImages from './components/HomeImages';
 import Footer from './components/Footer';
-import HomePriorities from './components/HomePriorities';
-import AboutChuck from './components/AboutChuck';
-import Endorsements from './components/Endorsements'
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import { Route, Routes } from 'react-router-dom';
+
+
+// import Hero from './components/Hero';
+// import HomeImages from './components/HomeImages';
+
+// import HomePriorities from './components/HomePriorities';
+// import AboutChuck from './components/AboutChuck';
+// import Endorsements from './components/Endorsements'
 
 function App() {
 
   return (
     <>
         <Header />
-        <Hero />
-        <HomeImages />
-        <HomePriorities />        
-        <AboutChuck />
-        <Endorsements />
+            <Routes>
+                <Route path='/' element={<Home />} />   
+                <Route path='/contact' element={<Contact />} />         
+            </Routes>
+
         <Footer />
     </>
   )
