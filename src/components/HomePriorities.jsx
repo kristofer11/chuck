@@ -42,7 +42,9 @@ const HomePriorities = () => {
                         <li>Solicit input from staff.</li>
                     </ul>
                 </details>
+                <p className="last-sentence"><strong>I will continue to serve our students, staff and community fairly and equitably, ensuring everyone has a seat at the table, while keeping student wellness and educational success at the forefront of all my decisions.</strong></p>
             </div>
+
 
         </section>
     )

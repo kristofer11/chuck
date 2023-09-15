@@ -312,6 +312,11 @@ header {
     .home-priorities-text {
         max-width: 999px;
         border-block: 3px solid var(--logo-text-dark-transparent);
+
+        .last-sentence strong {
+            color: var(--main-text-dark);
+            font-size: 1.35rem;
+        }
     }
 
     h2 {
@@ -364,7 +369,6 @@ header {
 
         summary:hover {
             transform: scale(1.02);
-            background-color: var(--logo-text-dark-transparent);
             transition: background-color 0.5s ease;
             transition: transform 0.5s ease;
 
@@ -381,6 +385,8 @@ header {
     }
 }
 
+
+// REMOVE IF ENDORSEMENTS SECTION IS TO BE REMOVED FROM HOME PAGE
 .endorsements {
     color: var(--main-text-light);
     // background-color: var(--bg-light);
@@ -395,6 +401,7 @@ header {
     width: 999px;
     max-width: 100%;
     align-self: center;
+    margin-bottom: 1rem;
 
     .endorsements-card {
         background-color: var(--logo-text-dark-transparent);
@@ -429,6 +436,58 @@ header {
         }
     }
 }
+// REMOVE ABOVE IF ENDORSEMENTS SECTION IS TO BE REMOVED FROM HOME PAGE
+
+// BELOW ENDORSEMENT STYLING IS FOR ENDORSEMENT PAGE
+.endorsements-page-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+
+    img{
+        width: 999px;
+        max-width: 100%;
+        margin-block: 1rem;
+    }
+
+    .endorsements-text{
+        background-color: var(--logo-text-dark);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-block: 2rem;
+
+        p{
+            padding-inline: 1rem;
+            font-size: 1.25rem;
+        }
+    }
+
+    .endorsements-card{
+        color: blue;
+        ul{
+            list-style-type: none;
+            li{
+                text-decoration: none;
+                font-size: 1.8rem;
+                strong{
+                    font-size: 2rem;
+                }
+                h4 {
+                    color: var(--main-text-light);
+            
+                    span {
+                        color: var(--logo-text-light);
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 .footer {
     background-color: var(--logo-text-dark);
@@ -508,9 +567,9 @@ header {
 .contact-text-1 {
     background-color: var(--logo-text-dark);
     color: var(--main-text-light);
-    width: 100%;
+    width: 999px;
+    max-width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     padding-block: 3rem;
 
@@ -584,6 +643,13 @@ header {
 
     .contact-sign-div{
         background-color: var(--bg-light);
+    }
+    .endorsements-page-section {
+        margin-bottom: 3%;
+    }
+
+    .contact-text-1 {
+        flex-direction: column;
     }
 }
 

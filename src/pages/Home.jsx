@@ -11,8 +11,6 @@ const Home = () => {
         <Hero />
         <HomeImages />
         <HomePriorities />
-        <AboutChuck />
-        <Endorsements />
     </>
   )
 }

@@ -5,7 +5,7 @@ import Headshot from '../assets/mainPortrait.jpg'
 const AboutChuck = () => {
     return (
         <section className="about-chuck">
-            <h2>About Chuck</h2>
+            <h2>Meet Chuck Whitfield</h2>
             <div className="about-chuck-img-small d-block d-lg-none">
                 <img src={OceanLong} alt="Chuck and Nancy Whitfield at the Oregon coast with waves in background." />
             </div>
@@ -34,8 +34,10 @@ const AboutChuck = () => {
                     </div>
                     <img className='about-chuck-img-2' src={Headshot} alt="" />
                 </div>
+                
+                {/* MOVED TO HOME PAGE */}
 
-                <p className="last-sentence"><strong>I will continue to serve our students, staff and community fairly and equitably, ensuring everyone has a seat at the table, while keeping student wellness and educational success at the forefront of all my decisions.</strong></p>
+                {/* <p className="last-sentence"><strong>I will continue to serve our students, staff and community fairly and equitably, ensuring everyone has a seat at the table, while keeping student wellness and educational success at the forefront of all my decisions.</strong></p> */}
             </div>
         </section>
     )

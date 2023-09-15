@@ -22,30 +22,26 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" >Menu</Navbar.Toggle>
                     <Navbar.Collapse id="basic-navbar-nav" className='justify-content-md-end'>
                         <Nav >
+                            <Nav.Link href="/">Home</Nav.Link>
 
+                            <Nav.Link href="/about">About Chuck</Nav.Link>
+                            <Nav.Link href="/endorsements">Endorsements</Nav.Link>
 
-                            <ScrollLink
-                                to="about-chuck"
-                                smooth={true}
-                                duration={500}
-                            >
-                                <Nav.Link>About Chuck</Nav.Link>
-                            </ScrollLink>
-
-                            <ScrollLink
+                            {/* <ScrollLink
                                 to="home-priorities"
                                 smooth={true}
                                 duration={500}
                             >
                                 <Nav.Link>Priorities</Nav.Link>
-                            </ScrollLink>
-                            <ScrollLink
+                            </ScrollLink> */}
+
+                            {/* <ScrollLink
                                 to="endorsements"
                                 smooth={true}
                                 duration={500}
                             >
                                 <Nav.Link>Endorsements</Nav.Link>
-                            </ScrollLink>
+                            </ScrollLink> */}
 
                             <Nav.Link href="/contact">Contact/Donate</Nav.Link>
 
