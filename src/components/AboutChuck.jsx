@@ -32,7 +32,7 @@ const AboutChuck = () => {
                             <li>Continuing to be fiscally responsible with taxpayer dollars</li>
                         </ul>                        
                     </div>
-                    <img className='about-chuck-img-2' src={Headshot} alt="" />
+                    <img className='about-chuck-img-2 d-lg-block d-none' src={Headshot} alt="" />
                 </div>
                 
                 {/* MOVED TO HOME PAGE */}
