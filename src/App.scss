@@ -48,7 +48,8 @@ header {
             .navbar-nav {
                 align-items: end;
 
-                a, .nav-link {
+                a,
+                .nav-link {
                     color: var(--logo-text-dark);
                     font-size: 1.5rem;
 
@@ -254,7 +255,7 @@ header {
             height: 366px;
             margin: 0 1rem;
             border-radius: 6px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         }
     }
 
@@ -263,7 +264,7 @@ header {
             height: 266px;
             margin: 1rem;
             border-radius: 6px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
         }
     }
@@ -304,7 +305,8 @@ header {
 
 
 .home-priorities {
-    padding-block: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -437,24 +439,25 @@ header {
         }
     }
 }
+
 // REMOVE ABOVE IF ENDORSEMENTS SECTION IS TO BE REMOVED FROM HOME PAGE
 
 // BELOW ENDORSEMENT STYLING IS FOR ENDORSEMENT PAGE
-.endorsements-page-section{
+.endorsements-page-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0;
 
-    img{
+    img {
         width: 999px;
         max-width: 100%;
         margin-block: 1rem;
         border-radius: 11px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 
-    .endorsements-text{
+    .endorsements-text {
         background-color: var(--logo-text-dark);
         width: 100%;
         display: flex;
@@ -462,25 +465,29 @@ header {
         align-items: center;
         padding-block: 2rem;
 
-        p{
+        p {
             padding-inline: 1rem;
             font-size: 1.25rem;
         }
     }
 
-    .endorsements-card{
+    .endorsements-card {
         color: blue;
-        ul{
+
+        ul {
             list-style-type: none;
-            li{
+
+            li {
                 text-decoration: none;
                 font-size: 1.8rem;
-                strong{
+
+                strong {
                     font-size: 2rem;
                 }
+
                 h4 {
                     color: var(--main-text-light);
-            
+
                     span {
                         color: var(--logo-text-light);
                         font-size: 2rem;
@@ -495,11 +502,64 @@ header {
 .footer {
     background-color: var(--logo-text-dark);
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+    .footer-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 1rem;
+
+        .footer-link {
+            background-color: #00b0aa;
+            font-size: 1.8rem;
+            margin: 0.5rem;
+            padding: 0.5rem;
+            border-radius: 44px;
+            width: 222px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+            &:hover{
+                transform: scale(1.05);
+                background-color: var(--)
+            }
+        }
+    }
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+
+    .footer-link {
+        background-color: #00b0aa;
+        font-size: 1.8rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        border-radius: 44px;
+        width: 222px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+        &:hover{
+            transform: scale(1.05);
+            background-color: var(--logo-text-dark)
+        }
+    }
+}
+
+.copyright-div {
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
     gap: 3rem;
 }
+
 
 // CONTACT PAGE STYLES
 
@@ -523,10 +583,10 @@ header {
     height: 266px;
     margin: 1rem;
     border-radius: 6px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.contact-text{
+.contact-text {
     width: 999px;
     max-width: 100%;
     display: flex;
@@ -534,15 +594,15 @@ header {
     margin: 1rem;
 }
 
-.contact-sign-div{
+.contact-sign-div {
     width: 100%;
     background-color: var(--logo-text-dark);
 
-    .contact-sign{
-    width: 777px;
-    max-width: 100%;
-    padding-top: 1rem;
-    }    
+    .contact-sign {
+        width: 777px;
+        max-width: 100%;
+        padding-top: 1rem;
+    }
 }
 
 
@@ -555,7 +615,7 @@ header {
 
     a {
         color: var(--logo-text-dark);
-        transition: color 0.3s, text-decoration 0.3s; 
+        transition: color 0.3s, text-decoration 0.3s;
         border-radius: 6px;
         padding: 5px;
 
@@ -577,17 +637,17 @@ header {
     align-items: center;
     padding-block: 3rem;
 
-    p{
+    p {
         color: var(--main-text-light);
         font-size: 1.75rem;
         padding: 1rem;
         margin-bottom: 0;
         width: 999px;
         max-width: 100%;
-    
+
         a {
             color: var(--main-text-light);
-            transition: color 0.3s, text-decoration 0.3s; 
+            transition: color 0.3s, text-decoration 0.3s;
             padding: 5px;
             border-radius: 6px;
             overflow-wrap: break-word;
@@ -600,7 +660,7 @@ header {
 
             }
 
-        }  
+        }
     }
 }
 
@@ -645,9 +705,10 @@ header {
         }
     }
 
-    .contact-sign-div{
+    .contact-sign-div {
         background-color: var(--bg-light);
     }
+
     .endorsements-page-section {
         margin-bottom: 3%;
     }

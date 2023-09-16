@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import EndorsementsPage from './pages/EndorsementsPage';
 import Contact from './pages/Contact';
+import FooterLinks from './components/FooterLinks';
 import { Route, Routes } from 'react-router-dom';
 
 
@@ -26,7 +27,7 @@ function App() {
                 <Route path='/endorsements' element={<EndorsementsPage />} />
                 <Route path='/contact' element={<Contact />} />         
             </Routes>
-
+        <FooterLinks />
         <Footer />
     </>
   )
