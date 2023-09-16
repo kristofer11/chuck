@@ -1,5 +1,6 @@
 import Sign from '../assets/Chuck for Schoolboard 2023.png';
 import Headshot from '../assets/hero.jpg';
+import FooterLinks from '../components/FooterLinks';
 
 
 const Contact = () => {
@@ -17,12 +18,12 @@ const Contact = () => {
             <h2 className='section-heading'>Support the Campaign</h2>
             <div className='contact-text'>
                 <p>
-                    Your support is greatly appreciated! To make a contribution and help us further our mission, please reach out to us via <a className='email-link' href='mailto:whitfieldforeducation@gmail.com'  >email</a>. We'll be more than happy to provide you with the necessary guidance on how to donate. Your generosity fuels our campaign and makes a significant impact on our community. We extend our heartfelt gratitude for considering contributing to our cause. Together, we can make a positive change!
+                    Your support is greatly appreciated! To make a contribution and help us further our mission, please reach out to us via <a className='email-link' href='mailto:whitfieldforeducation@gmail.com'  >email</a>. We'll be more than happy to provide you with the necessary guidance on how to donate. Your generosity fuels our campaign and makes a significant impact on our community. We extend our heartfelt gratitude for considering contributing to our cause.
                 </p>
+                <img className='d-none d-lg-block' src={Sign} />
             </div>
-            <div className='contact-sign-div'>
+            <div className='contact-sign-div d-block d-lg-none'>
                 <img src={Sign} className='contact-sign' />
-                
             </div>
         </section>
     )

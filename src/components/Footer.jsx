@@ -10,7 +10,11 @@ const Footer = () => {
     return (
         <footer className='footer'>            
             <div className='copyright-div'>
-                <div>©2023 paid for by Chuck Whitfield</div>
+                <div className='email-div'>
+                    Email: <a href="mailto:whitfieldforeducation@gmail.com">WhitfieldForEducation@gmail.com</a> 
+                </div>
+                {/* <span className='d-none d-md-block'>|</span> */}
+                <div className='copyright'>©2023 paid for by Chuck Whitfield</div>
                 <a href="https://www.facebook.com/profile.php?id=100094757426779" target="_blank">
                     <img src={FbLogo} className='fb-logo' />
                 </a>
