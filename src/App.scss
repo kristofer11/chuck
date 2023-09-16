@@ -8,6 +8,7 @@
     --navbar-brand-font: 'Ubuntu', sans-serif;
     --main-font: 'Montserrat', sans-serif;
     --bio-font: 'Roboto', sans-serif;
+    --accent-color: #36a1fe;
 }
 
 * {
@@ -537,7 +538,7 @@ header {
     margin-bottom: 1.5rem;
 
     .footer-link {
-        background-color: #36a1fe;
+        background-color: var(--accent-color);
         font-size: 1.8rem;
         margin: 0.5rem;
         padding: 0.5rem;
@@ -614,7 +615,7 @@ header {
     max-width: 100%;
 
     a {
-        color: var(--logo-text-dark);
+        color: var(--accent-color);
         transition: color 0.3s, text-decoration 0.3s;
         border-radius: 6px;
         padding: 5px;
@@ -646,12 +647,11 @@ header {
         max-width: 100%;
 
         a {
-            color: var(--main-text-light);
+            color: var(--accent-color);
             transition: color 0.3s, text-decoration 0.3s;
             padding: 5px;
             border-radius: 6px;
             overflow-wrap: break-word;
-            color: #01FC3A;
 
             &:hover {
                 color: var(--logo-text-dark);
