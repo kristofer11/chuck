@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const FooterLinks = () => {
     return (
-        <div>
+        <div className="footer-nav-container">
             <nav className='footer-nav'>
                 <Link to='/'>
                     <div className='footer-link'>Home</div>
