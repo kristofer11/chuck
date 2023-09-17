@@ -28,10 +28,10 @@ const AboutChuck = () => {
 
                     </div>
                 </div>
-                <div>
-                <p>
-                            My educational pursuits led me to attain a business degree, and today, I proudly operate a local vehicle-licensing agency in Monroe. However, beyond my professional endeavors, my heart has always been dedicated to the betterment of our beloved city.
-                        </p>
+                <div className='main-text'>
+                    <p>
+                        My educational pursuits led me to attain a business degree, and today, I proudly operate a local vehicle-licensing agency in Monroe. However, beyond my professional endeavors, my heart has always been dedicated to the betterment of our beloved city.
+                    </p>
                     <p>
                         Over the past four years, I've had the distinct privilege of serving as a Monroe School District School Board Director. During this time, I've navigated the district through challenging moments, working collaboratively with my fellow board members and educators. My active participation in the curriculum committee has allowed me to foster community input and help select robust educational programs. As the legislative representative, I've forged meaningful relationships with lawmakers, advocating tirelessly for the benefit of Monroe's students.
                     </p>
