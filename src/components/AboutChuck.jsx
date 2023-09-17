@@ -20,28 +20,29 @@ const AboutChuck = () => {
                         {/* <p>I've lived in Monroe my entire life. I graduated from Monroe High School, enlisted into the Army, graduated from college with a business degree and currently operate a vehicle-licensing agency in Monroe. Through these stages of life I have learned how to be a leader who leads by example.</p>
                         <p>Over the last four years it has been my pleasure to serve as board director during some difficult times. During these hard times we worked together overcoming hardships and finding solutions to move forward. I've served on the curriculum committee, encouraging community input and choosing robust curriculum, and as the legislative representative, building relationships with lawmakers and advocating for our students.</p> */}
                         <p>
-                            Chuck Whitfield, a devoted husband, father, and longtime Monroe resident, brings a rich history of community involvement and a deep commitment to the city he proudly calls home.
+                            As a devoted husband, father, and proud longtime resident of Monroe, I bring a rich history of community involvement and an unwavering commitment to our cherished city.
                         </p>
                         <p>
-                            Born and raised in Monroe, Chuck's roots run deep in this vibrant Pacific Northwest community. He's not just a resident; he's a testament to the enduring spirit of Monroe. Chuck's journey began at Monroe High School, where he laid the foundation for his future. After graduation, he enlisted in the U.S. Army, serving our country with honor and gaining valuable life experience.
+                            My roots in this vibrant Pacific Northwest community run deep, having been born and raised right here in Monroe. I don't simply reside in Monroe; I am a living testament to the enduring spirit that defines this place. My journey began at Monroe High School, where I laid the foundation for my future. Following graduation, I proudly served our country with honor in the U.S. Army, gaining invaluable life experiences.
                         </p>
-                        <p>
-                            Chuck's educational pursuits led him to a business degree, and today, he operates a local vehicle-licensing agency in Monroe. Beyond his professional endeavors, Chuck's heart has always been devoted to the betterment of his beloved city.
-                        </p>
+
                     </div>
                 </div>
                 <div>
+                <p>
+                            My educational pursuits led me to attain a business degree, and today, I proudly operate a local vehicle-licensing agency in Monroe. However, beyond my professional endeavors, my heart has always been dedicated to the betterment of our beloved city.
+                        </p>
                     <p>
-                        Over the past four years, Chuck has had the privilege of serving as a Monroe School District School Board Director. During this time, he navigated the district through challenging moments, working collaboratively with fellow board members and educators. He actively participated in the curriculum committee, fostering community input to select robust educational programs. As the legislative representative, he forged relationships with lawmakers, advocating tirelessly for Monroe's students.
+                        Over the past four years, I've had the distinct privilege of serving as a Monroe School District School Board Director. During this time, I've navigated the district through challenging moments, working collaboratively with my fellow board members and educators. My active participation in the curriculum committee has allowed me to foster community input and help select robust educational programs. As the legislative representative, I've forged meaningful relationships with lawmakers, advocating tirelessly for the benefit of Monroe's students.
                     </p>
                     <p>
-                        Chuck's vision extends beyond the classroom. He's a dedicated member of the Monroe Rotary and the Monroe Chamber of Commerce, deeply engaged in the faith-based community. His extensive service record includes past presidencies of the Snohomish Rotary and Duvall Chamber, demonstrating his commitment to strengthening the social fabric of his city.
+                        My vision for our community extends beyond the classroom. I'm a dedicated member of the Monroe Rotary and the Monroe Chamber of Commerce, deeply engaged in our faith-based community. My extensive service record includes past presidencies of the Snohomish Rotary and Duvall Chamber, demonstrating my steadfast commitment to strengthening the social fabric of our city.
                     </p>
                     <p>
-                        Chuck's values, dedication to education, and tireless community service make him an ideal candidate for the Monroe School Board. Chuck welcomes questions, feedback, and support from the community. Feel free to reach out via email, and if you're interested in supporting his campaign, your contribution will be deeply appreciated.
+                        My values, my dedication to education, and my tireless community service have led me to pursue a role on the Monroe School Board. I welcome your questions, feedback, and support. Please don't hesitate to reach out via email, and if you're interested in supporting my campaign, your contribution will be genuinely appreciated. Together, we can shape a brighter future for Monroe's students and our entire community.
                     </p>
                     <div className='family-link-div'>
-                        <Link to='/whitfield-family' ><div className='w-family-link' id='w-family-link' >Read more about the Whitfield family legcacy in Monroe</div></Link>
+                        <Link to='/whitfield-family' ><div className='w-family-link' id='w-family-link' ><em>Read more about the Whitfield family legcacy in Monroe</em></div></Link>
                     </div>
                 </div>
                 <div className='d-flex about-chuck-text-2 align-items-center'>
