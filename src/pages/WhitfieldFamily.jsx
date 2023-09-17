@@ -17,7 +17,7 @@ const WhitfieldFamily = () => {
 
                     <div className='intro-block-text'>
                         <p>For over 100 years, the Whitfield Family has faithfully served the Monroe Community. It all began with our Patriarch, Lawrence Whitfield, who arrived in Washington at only thirteen years old. His son, Larry Whitfield, who, until the age of 92 years old, was often found in the Whitfield Licensing office. Currently, Chuck Whitfield and his wife Nancy are the proprietors of the business. A commitment to our neighbors, to sound business, to developing relationships, to doing the right thing - no matter what - has always defined our family and will continue to do so in the years to come.  </p>
-
+                        <p>Born in 1902 in Pawnee, Nebraska, Lawrence moved with his family to Cathcart in 1915 where they settled on a seven-acre parcel of previously logged land. With this, the logging industry would find itself into the marrow of Lawrence's being, beginning at twelve when he worked a summer in California as a "whistle punk." Relaying instructions between the work site and the log landing via whistle bursts, he earned $5 a day. He remembers his first "paycheck" was four $20 gold pieces for a month of work. Later, he returned to Washington and worked greasing skids: using smaller logs to transport larger, more marketable logs dragged over them via horse or mule teams. </p>
                     </div>
                     <figure>
                         <img src={ThreeGenerations} alt='Chuck Whitfield with grandson Lincoln Hvattum and his late father, Larry Whitfield' />
@@ -28,7 +28,7 @@ const WhitfieldFamily = () => {
 
             </section>
             <section className='w-family-section-2 w-family-section'>
-                <p>Born in 1902 in Pawnee, Nebraska, Lawrence moved with his family to Cathcart in 1915 where they settled on a seven-acre parcel of previously logged land. With this, the logging industry would find itself into the marrow of Lawrence's being, beginning at twelve when he worked a summer in California as a "whistle punk." Relaying instructions between the work site and the log landing via whistle bursts, he earned $5 a day. He remembers his first "paycheck" was four $20 gold pieces for a month of work. Later, he returned to Washington and worked greasing skids: using smaller logs to transport larger, more marketable logs dragged over them via horse or mule teams. </p>
+
                 <p>In 1923, Lawrence arrived in the emerging community of Monroe, a booming timber town, to work for the Florence Acres Logging Company. He felled timber and worked as a high rigger. This was an extremely dangerous job requiring him to free climb tall trees with only a rope, chopping branches as he went, then topping the tree with his saw in one hand and only holding the trunk with the other. At 5:00pm every night, a train would pull into Monroe to be loaded with logs on their way to Everett and on.</p>
                 <p>In 1927, Lawrence married a local Snohomish girl, Marion Parkhurst, whose parents owned a large dairy farm. As the logging industry began to decline in the area, Lawrence, Marion, and their new family adapted to the changing region.</p>
 
@@ -52,7 +52,11 @@ const WhitfieldFamily = () => {
                 <p>Eventually settling on a farm just outside Monroe, Larry and his wife, Darlene, raised their children in the place they, themselves, had grown up. The second of four siblings, Chuck remembers his early years in agriculture, his mother's help to win State Farmer of the Year, and the foundation of leadership and organization that helped build his life. After graduating high school, Chuck spent three years in the Army, stationed in New Ulm Germany, then returned to Western Washington to attend college and join the family business.</p>
             </section>
             <section className='w-family-section-6 w-family-section'>
-                <img src={MichaelGrad} />
+                <figure>
+                <img src={MichaelGrad} alt="Chuck and Nancy Whitfield at their son Michael's graduation" />   
+                <figcaption>Chuck and Nancy at their son Michael's college graduation.</figcaption>                 
+                </figure>
+
             </section>
             <section className='w-family-section-7 w-family-section'>
                 <p>In 1984, Chuck returned to Monroe, married local resident Nancy Rinks, and began selling insurance with his father. For almost 30 years, the ethics and community commitment of both his grandfather and his father shaped his business practices. In 1990, he partnered with another prominent local businessman to bring the Rotary Club to Monroe, and since then, they've overseen community outreach projects and fundraising efforts for over three decades. </p>
@@ -61,18 +65,20 @@ const WhitfieldFamily = () => {
             <section className='w-family-section-8 w-family-section'>
                 <p>The Whitfield Legacy winds back over 100 years, a century of living and working in the Monroe community, of raising their children here and seeing them grow up to give back to the place they love so much. Even as Monroe continues to change and evolve, agriculture now giving way to the Gateway of the Cascade mountains and increased agritourism, it remains true to its roots, as well. The railroad still runs through town, though now as apt to carry airplane wings as local logging produce. Evergreen State Fair continues to show the community's deep commitment to animal husbandry and its history of homesteading skills; and the Whitfield family continues to raise up this once small town, even as it has raised another generation to follow in their forebears' footsteps.</p>
             </section>
+                    <figure className='chuck-polly'>
+                        <img src={ChuckPolly} alt='Chuck Whitfield holding his golden retreiver puppy, Polly' />
+                        <figcaption style={{ color: 'black' }}>Chuck holding his golden retreiver, Polly</figcaption>
+                    </figure>            
             <section className='w-family-section-9 w-family-section'>
                 <div className='d-flex intro-block align-items-center'>
 
                     <div className='intro-block-text'>
+                        
                         <p>Today, Chuck continues to run Whitfield Licensing with the help of his son, Michael. His three children, Lacey, Michael, and Kendra, remain in Monroe and they are excited to see a fourth generation take up the reins of the family's deep commitment to serving their friends and neighbors. </p>
                         <p>The Whitfield Legacy has always been about more than just names, dates, and shingles on the side of buildings. The true Whitfield Legacy is their deep commitment to the Monroe community, their ethic of service, and their love for their fellow human. They remain proud of their many years in Monroe and Snohomish County and look forward to many more still to come.
                         </p>
                     </div>
-                    <figure>
-                        <img src={ChuckPolly} />
-                        <figcaption style={{ color: 'black' }}>Chuck holding his golden retreiver, Polly</figcaption>
-                    </figure>
+
                 </div>
 
 
