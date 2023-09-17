@@ -71,17 +71,17 @@ const WhitfieldFamily = () => {
             </figure> */}
             <section className='w-family-section-9 w-family-section'>
                 <div className='d-flex outro-block align-items-center'>
-
+                    <figure className='chuck-polly'>
+                        <img src={ChuckPolly} alt='Chuck Whitfield holding his golden retreiver puppy, Polly' />
+                        <figcaption style={{ color: 'black' }}>Chuck holding his golden retreiver, Polly</figcaption>
+                    </figure> 
                     <div className='intro-block-text'>
 
                         <p>Today, Chuck continues to run Whitfield Licensing with the help of his son, Michael. His three children, Lacey, Michael, and Kendra, remain in Monroe and they are excited to see a fourth generation take up the reins of the family's deep commitment to serving their friends and neighbors. </p>
                         <p>The Whitfield Legacy has always been about more than just names, dates, and shingles on the side of buildings. The true Whitfield Legacy is their deep commitment to the Monroe community, their ethic of service, and their love for their fellow human. They remain proud of their many years in Monroe and Snohomish County and look forward to many more still to come.
                         </p>
                     </div>
-                    <figure className='chuck-polly'>
-                        <img src={ChuckPolly} alt='Chuck Whitfield holding his golden retreiver puppy, Polly' />
-                        <figcaption style={{ color: 'black' }}>Chuck holding his golden retreiver, Polly</figcaption>
-                    </figure>   
+  
 
                 </div>
 
