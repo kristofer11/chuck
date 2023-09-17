@@ -1,4 +1,4 @@
-import ThreeGenerations from '../assets/images/ThreeGenerations.png'
+import ThreeGenerations from '../assets/images/threeGenerations.png'
 import Mural from '../assets/images/mural.png';
 import MichaelGrad from '../assets/images/michaelGrad.png';
 import ChuckPolly from '../assets/images/chuckPolly.png';
