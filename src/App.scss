@@ -126,6 +126,10 @@ header {
     width: 44px;
 }
 
+.fb-logo-sm{
+    width: 88px;
+}
+
 .hero-section {
     position: relative;
     background-image: url('./assets/images/Wagner5.jpg');
@@ -810,6 +814,36 @@ header {
     .footer-nav {
         padding-top: 0;
     }
+
+
+    .copyright-div {
+        // flex-wrap: wrap;
+        // text-align: center;
+        flex-direction: column;
+
+        .copyright {
+            font-size: 1rem;
+            width: 100%;
+            text-align: center;
+        }
+    
+        .email-div {
+            font-size: 1rem;
+            width: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+            text-align: center;
+    
+            a {
+                font-size: 1.22rem;
+                font-weight: bold;
+            }
+        }
+    
+    }
+
+
+
 }
 
 @media (max-width: 576px) {
