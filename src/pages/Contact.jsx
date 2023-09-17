@@ -1,5 +1,5 @@
-import Sign from '../assets/Chuck for Schoolboard 2023.png';
-import Headshot from '../assets/hero.jpg';
+import Sign from '../assets/images/Chuck for Schoolboard 2023.png';
+import Headshot from '../assets/images/hero.jpg';
 import FooterLinks from '../components/FooterLinks';
 
 

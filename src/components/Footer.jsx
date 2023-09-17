@@ -1,4 +1,4 @@
-import FbLogo from '../assets/5296499_fb_facebook_facebook logo_icon.png';
+import FbLogo from '../assets/images/5296499_fb_facebook_facebook logo_icon.png';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {

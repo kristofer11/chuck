@@ -1,8 +1,8 @@
-import Kirk from '../assets/kirkSquare.png';
-import Ocean from '../assets/oceanSquare.png';
-import Ruby from '../assets/rubySquare.png';
-import LaceyErin from '../assets/laceyErinSquare.png'
-import Christie from '../assets/christy square.png';
+import Kirk from '../assets/images/kirkSquare.png';
+import Ocean from '../assets/images/oceanSquare.png';
+import Ruby from '../assets/images/rubySquare.png';
+import LaceyErin from '../assets/images/laceyErinSquare.png'
+import Christie from '../assets/images/christy square.png';
 
 const HomeImages = () => {
     return (

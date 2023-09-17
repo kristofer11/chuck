@@ -2,8 +2,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Sign from '../assets/Chuck for Schoolboard 2023.png';
-import FbLogo from '../assets/5296499_fb_facebook_facebook logo_icon.png';
+import Sign from '../assets/images/Chuck for Schoolboard 2023.png';
+import FbLogo from '../assets/images/5296499_fb_facebook_facebook logo_icon.png';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 
 const Header = () => {

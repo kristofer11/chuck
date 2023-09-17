@@ -16,6 +16,11 @@
     color: var(--main-text-light);
 }
 
+html, body {
+    scroll-behavior: smooth;
+    transition: scroll-behavior 0.1s ease-in-out;
+}
+
 body {
     background-color: var(--bg-light);
 }
@@ -123,7 +128,7 @@ header {
 
 .hero-section {
     position: relative;
-    background-image: url('./assets/Wagner5.jpg');
+    background-image: url('./assets/images/Wagner5.jpg');
     background-size: cover;
     overflow-x: hidden;
 
@@ -213,9 +218,14 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: end;
     width: 100%;
     padding-bottom: 2rem;
     background-color: var(--bg-light);
+
+    .about-chuck-text-block-1 {
+        align-items: start;
+    }
 
     h2 {
         font-size: 2.5rem;
@@ -229,6 +239,8 @@ header {
         max-width: 999px;
         margin-top: 2rem;
         text-align: justify;
+        display: flex;
+        flex-direction: column;
 
         .last-sentence strong {
             font-size: 1.33rem;
@@ -258,9 +270,12 @@ header {
     }
 
     .about-chuck-img {
+        align-items: end;
+
         img {
-            height: 366px;
+            height: 388px;
             margin: 0 1rem;
+            margin-top: 0.66rem;
             border-radius: 6px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         }
@@ -514,7 +529,7 @@ header {
     align-items: center;
     padding: 1rem;
 
-    
+
 
     // .footer-nav {
     //     display: flex;
@@ -541,7 +556,7 @@ header {
     // }
 }
 
-.footer-nav-container{
+.footer-nav-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -565,10 +580,32 @@ header {
         width: 222px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
-        &:hover{
+        &:hover {
             transform: scale(1.05);
             background-color: var(--logo-text-dark)
         }
+    }
+}
+
+.family-link-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w-family-link {
+    background-color: var(--accent-color-green);
+    font-size: 1.8rem;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 44px;
+    width: fit-content;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    text-align: center;
+
+    &:hover {
+        transform: scale(1.05);
+        background-color: var(--logo-text-dark)
     }
 }
 
@@ -581,24 +618,25 @@ header {
     width: 999px;
     max-width: 100%;
 
-    .copyright{
+    .copyright {
         font-size: 1.25rem;
     }
 
-    .email-div{
+    .email-div {
         font-size: 1.35rem;
         font-weight: bold;
-        a{
+
+        a {
             color: var(--accent-color-green);
             font-size: 1.44rem;
             font-weight: bold;
 
-            &:hover{
+            &:hover {
                 color: var(--main-text-light);
                 text-shadow: 1px 1px 2px var(--accent-color);
                 transform: scale(1.07);
             }
-        }        
+        }
     }
 
 }
@@ -636,9 +674,10 @@ header {
     align-items: center;
     margin: 1rem;
 
-    img{
+    img {
         width: 33%;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);        
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        margin-left: 0.5rem;
     }
 }
 
@@ -661,6 +700,7 @@ header {
     padding: 1rem;
     margin-bottom: 0;
     max-width: 100%;
+    text-align: justify;
 
     a {
         color: var(--accent-color);
@@ -831,4 +871,3 @@ header {
     }
 
 }
-

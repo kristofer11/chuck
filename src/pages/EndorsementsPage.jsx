@@ -1,5 +1,5 @@
 import Endorsements from "../components/Endorsements";
-import Parade from '../assets/paradeCropped.png'
+import Parade from '../assets/images/paradeCropped.png'
 
 const EndorsementsPage = () => {
     return (

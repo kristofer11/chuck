@@ -1,6 +1,6 @@
 // import HeroImg from '../assets/IMG_2532.png'
-import HeroImg from '../assets/Headshot.png';
-import Sign from '../assets/Chuck for Schoolboard 2023.png'
+import HeroImg from '../assets/images/Headshot.png';
+import Sign from '../assets/images/Chuck for Schoolboard 2023.png'
 
 const Hero = () => {
     return (
