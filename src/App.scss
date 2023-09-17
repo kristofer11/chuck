@@ -54,13 +54,15 @@ header {
                 .nav-link {
                     color: var(--logo-text-dark);
                     font-size: 1.5rem;
-                    font-weight: bold;
+                    font-weight: 500;
 
                     &:hover {
                         transform: scale(1.05);
-                        // color: var(--logo-text-light);
                         color: var(--accent-color-green);
-                        text-decoration: underline;
+                        // color: var(--accent-color-green);
+                        // border-inline: 1px solid var(--accent-color-green);
+                        border-radius: 11px;
+                        text-decoration: overline;
                     }
                 }
             }
