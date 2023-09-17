@@ -11,7 +11,7 @@ const Hero = () => {
                         <h1 className='d-none d-md-block'>Experience, Commitment, Community</h1>
 
                 </div>
-                <img className='hero-img' src={HeroImg} alt="Portrait of Chuck Whitfield, candidate for Monroe School Board Director, district 2" />
+                <img className='hero-img me-lg-4 pe-lg-2' src={HeroImg} alt="Portrait of Chuck Whitfield, candidate for Monroe School Board Director, district 2" />
             </div>
 
 

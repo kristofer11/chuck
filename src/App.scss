@@ -713,6 +713,7 @@ header {
 }
 
 
+
 @media (max-width: 768px) {
     .hero-container {
         .hero-text {
@@ -824,8 +825,10 @@ header {
     }
 }
 
-@media (max-width: 999px) {
+@media (max-width: 991px) {
     section {
         padding-inline: 1rem;
     }
+
 }
+
