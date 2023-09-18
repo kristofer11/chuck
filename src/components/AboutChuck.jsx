@@ -29,7 +29,7 @@ const AboutChuck = () => {
                     </div>
                 </div>
                 <div className='main-text'>
-                    <p className='about-para'>
+                    <p className='about-para mt-3 mt-md-0'>
                         My educational pursuits led me to attain a business degree, and today, I operate a local vehicle-licensing agency in Monroe. However, beyond my professional endeavors, my heart has always been dedicated to the betterment of our beloved city.
                     </p>
                     <p className='about-para'>
