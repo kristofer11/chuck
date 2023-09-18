@@ -822,6 +822,15 @@ header {
 
     .contact-text-1 {
         flex-direction: column;
+
+        p{
+            font-size: 1.5rem;
+        }
+    }
+
+    .contact-text p {
+        text-align: start;
+        font-size: 1.25rem;
     }
 
     .footer-nav {
