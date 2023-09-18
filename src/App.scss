@@ -776,10 +776,34 @@ header {
 }
 
 @media (max-width: 768px) {
-.hero-section{
-    background-image: url('./assets/images/Wagner5.jpg');
 
-}
+
+    .navbar-brand {
+        margin-left: 0.5rem;
+
+        h1 {
+            font-size: 2.75rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        .navbar-brand-sec-2 {
+            font-size: 0.66rem;
+        }
+    }
+
+
+    .navbar-brand {
+        width: 88%;
+    }
+
+    .hero-section {
+        background-image: url('./assets/images/Wagner5.jpg');
+
+    }
+
     .hero-container {
         .hero-text {
             left: 22px;
@@ -796,6 +820,7 @@ header {
                 width: 333px;
             }
         }
+
         .hero-img {
             width: 388px;
             margin-right: -2rem;
@@ -830,7 +855,7 @@ header {
     .contact-text-1 {
         flex-direction: column;
 
-        p{
+        p {
             font-size: 1.5rem;
         }
     }
@@ -878,9 +903,10 @@ header {
     .endorsements-page-section {
         .endorsements-card {
 
-            p{
+            p {
                 font-size: 1rem;
             }
+
             ul {
                 li {
                     text-decoration: none;
@@ -908,23 +934,6 @@ header {
 }
 
 @media (max-width: 576px) {
-
-    .navbar-brand {
-        margin-left: 0.5rem;
-
-        h1 {
-            font-size: 2.75rem;
-        }
-
-        p {
-            font-size: 1rem;
-        }
-
-        .navbar-brand-sec-2 {
-            font-size: 0.66rem;
-        }
-    }
-
     .navbar-nav {
         margin-right: 1rem;
     }
@@ -960,12 +969,12 @@ header {
         flex-wrap: wrap;
     }
 
-    .about-chuck p{
+    .about-chuck p {
         font-size: 1rem;
         text-align: start;
     }
 
-    figcaption{
+    figcaption {
         font-size: 0.8rem;
         margin-top: -0.8rem;
     }
@@ -976,4 +985,11 @@ header {
         padding-inline: 1rem;
     }
 
+
 }
+
+// @media (max-width: 1200px){
+//     header .navbar .container .navbar-nav a, header .navbar .container .navbar-nav .nav-link {
+//         font-size: 1.3rem;
+//     }
+// }
