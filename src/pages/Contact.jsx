@@ -15,7 +15,7 @@ const Contact = () => {
             </div>
 
 
-            <h2 className='section-heading'>Support the Campaign</h2>
+            <h2 className='section-heading contact-section-2-heading'>Support the Campaign</h2>
             <div className='contact-text'>
                 <p>
                     Your support is greatly appreciated! To make a contribution and help us further our mission, please reach out to us via <a className='email-link' href='mailto:whitfieldforeducation@gmail.com'  >email</a>. We'll be more than happy to provide you with the necessary guidance on how to donate. Your generosity fuels our campaign and makes a significant impact on our community. We extend our heartfelt gratitude for considering contributing to our cause.
