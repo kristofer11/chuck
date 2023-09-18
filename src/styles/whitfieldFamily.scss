@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
 
     .w-family-history-hero {
         background-image: url('../assets/images/mural.png');
@@ -28,6 +29,7 @@
                 1px 1px 0 #00000011;
             /* Bottom-right shadow */
             width: fit-content;
+            max-width: 100%;
             background-color: #005EB0;
             border-radius: 6px;
             padding: 0.66rem;
@@ -47,6 +49,9 @@
 
         figcaption {
             color: var(--main-text-dark);
+        }
+        figure{
+            max-width: 100%;
         }
     }
 
@@ -151,4 +156,11 @@
     .w-family-section p {
         text-align: start;
     }
+
+    .w-family-section-1 .intro-block figure {
+        img{
+            height: 333px !important;
+        }
+    }
+
 }

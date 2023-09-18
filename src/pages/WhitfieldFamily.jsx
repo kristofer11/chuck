@@ -14,7 +14,6 @@ const WhitfieldFamily = () => {
             <h1 className='section-heading'>Whitfield Family History</h1>
             <section className='w-family-section-1 w-family-section'>
                 <div className='d-flex intro-block'>
-
                     <div className='intro-block-text'>
                         <p>For over 100 years, the Whitfield Family has faithfully served the Monroe Community. It all began with our Patriarch, Lawrence Whitfield, who arrived in Washington at only thirteen years old. His son, Larry Whitfield, who, until the age of 92 years old, was often found in the Whitfield Licensing office. Currently, Chuck Whitfield and his wife Nancy are the proprietors of the business. A commitment to our neighbors, to sound business, to developing relationships, to doing the right thing - no matter what - has always defined our family and will continue to do so in the years to come.  </p>
                         <p>Born in 1902 in Pawnee, Nebraska, Lawrence moved with his family to Cathcart in 1915 where they settled on a seven-acre parcel of previously logged land. With this, the logging industry would find itself into the marrow of Lawrence's being, beginning at twelve when he worked a summer in California as a "whistle punk." Relaying instructions between the work site and the log landing via whistle bursts, he earned $5 a day. He remembers his first "paycheck" was four $20 gold pieces for a month of work. Later, he returned to Washington and worked greasing skids: using smaller logs to transport larger, more marketable logs dragged over them via horse or mule teams. </p>
@@ -70,7 +69,7 @@ const WhitfieldFamily = () => {
                 <figcaption style={{ color: 'black' }}>Chuck holding his golden retreiver, Polly</figcaption>
             </figure> */}
             <section className='w-family-section-9 w-family-section'>
-                <div className='d-flex outro-block align-items-center'>
+                <div className='d-flex outro-block align-items-center flex-md-nowrap flex-wrap'>
                     <figure className='chuck-polly'>
                         <img src={ChuckPolly} alt='Chuck Whitfield holding his golden retreiver puppy, Polly' />
                         <figcaption style={{ color: 'black' }}>Chuck holding his golden retreiver, Polly</figcaption>
