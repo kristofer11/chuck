@@ -481,7 +481,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:  1rem 1rem;
+    padding: 1rem 1rem;
     margin-top: -1rem;
 
 
@@ -673,7 +673,7 @@ header {
     background-color: var(--bg-light);
     padding: 0;
 
-    .contact-section-2-heading{
+    .contact-section-2-heading {
         margin-top: 2rem;
     }
 }
@@ -859,6 +859,34 @@ header {
         font-size: 1.5rem;
     }
 
+    .endorsements-page-section {
+        .endorsements-card {
+
+            p{
+                font-size: 1rem;
+            }
+            ul {
+                li {
+                    text-decoration: none;
+                    font-size: 1.8rem;
+
+                    strong {
+                        font-size: 1.7rem;
+                    }
+
+                    h4 {
+                        color: var(--main-text-light);
+
+                        span {
+                            color: var(--logo-text-light);
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 
 
 }
@@ -914,6 +942,16 @@ header {
 
     .copyright-div {
         flex-wrap: wrap;
+    }
+
+    .about-chuck p{
+        font-size: 1rem;
+        text-align: start;
+    }
+
+    figcaption{
+        font-size: 0.8rem;
+        margin-top: -0.8rem;
     }
 }
 

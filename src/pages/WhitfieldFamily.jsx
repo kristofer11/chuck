@@ -14,13 +14,17 @@ const WhitfieldFamily = () => {
             <h1 className='section-heading'>Whitfield Family History</h1>
             <section className='w-family-section-1 w-family-section'>
                 <div className='d-flex intro-block'>
+                    <figure className='d-block d-md-none'>
+                        <img src={ThreeGenerations} alt='Chuck Whitfield with grandson Lincoln Hvattum and his late father, Larry Whitfield' />
+                        <figcaption style={{ color: 'black' }}>(Left to right) Larry Whitfield, Chuck Whitfield and Chuck's grandson, Lincoln.</figcaption>
+                    </figure>
                     <div className='intro-block-text'>
                         <p>For over 100 years, the Whitfield Family has faithfully served the Monroe Community. It all began with our Patriarch, Lawrence Whitfield, who arrived in Washington at only thirteen years old. His son, Larry Whitfield, who, until the age of 92 years old, was often found in the Whitfield Licensing office. Currently, Chuck Whitfield and his wife Nancy are the proprietors of the business. A commitment to our neighbors, to sound business, to developing relationships, to doing the right thing - no matter what - has always defined our family and will continue to do so in the years to come.  </p>
                         <p>Born in 1902 in Pawnee, Nebraska, Lawrence moved with his family to Cathcart in 1915 where they settled on a seven-acre parcel of previously logged land. With this, the logging industry would find itself into the marrow of Lawrence's being, beginning at twelve when he worked a summer in California as a "whistle punk." Relaying instructions between the work site and the log landing via whistle bursts, he earned $5 a day. He remembers his first "paycheck" was four $20 gold pieces for a month of work. Later, he returned to Washington and worked greasing skids: using smaller logs to transport larger, more marketable logs dragged over them via horse or mule teams. </p>
                     </div>
-                    <figure>
+                    <figure className='d-none d-md-block'>
                         <img src={ThreeGenerations} alt='Chuck Whitfield with grandson Lincoln Hvattum and his late father, Larry Whitfield' />
-                        <figcaption style={{ color: 'black' }}>Chuck with his father, Larry Whitfield (left)and granson, Lincoln (center).</figcaption>
+                        <figcaption style={{ color: 'black' }}>(Left to right) Larry Whitfield, Chuck Whitfield and Chuck's grandson, Lincoln.</figcaption>
                     </figure>
 
                 </div>
@@ -73,14 +77,14 @@ const WhitfieldFamily = () => {
                     <figure className='chuck-polly'>
                         <img src={ChuckPolly} alt='Chuck Whitfield holding his golden retreiver puppy, Polly' />
                         <figcaption style={{ color: 'black' }}>Chuck holding his golden retreiver, Polly</figcaption>
-                    </figure> 
+                    </figure>
                     <div className='intro-block-text'>
 
                         <p>Today, Chuck continues to run Whitfield Licensing with the help of his son, Michael. His three children, Lacey, Michael, and Kendra, remain in Monroe and they are excited to see a fourth generation take up the reins of the family's deep commitment to serving their friends and neighbors. </p>
                         <p>The Whitfield Legacy has always been about more than just names, dates, and shingles on the side of buildings. The true Whitfield Legacy is their deep commitment to the Monroe community, their ethic of service, and their love for their fellow human. They remain proud of their many years in Monroe and Snohomish County and look forward to many more still to come.
                         </p>
                     </div>
-  
+
 
                 </div>
 
