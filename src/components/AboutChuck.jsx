@@ -45,7 +45,7 @@ const AboutChuck = () => {
                         <Link to='/whitfield-family' ><div className='w-family-link' id='w-family-link' ><em>Read more about the Whitfield family legcacy in Monroe</em></div></Link>
                     </div>
                 </div>
-                <div className='d-flex about-chuck-text-2 align-items-center'>
+                {/* <div className='d-flex about-chuck-text-2 align-items-center'>
                     <div className='commitment-card'>
                         <p><strong>I remain committed to the following:</strong></p>
                         <ul>
@@ -56,7 +56,7 @@ const AboutChuck = () => {
                         </ul>
                     </div>
                     <img className='about-chuck-img-2 d-lg-block d-none' src={Headshot} alt="Chuck Whitfield, Monroe School District School Board Director" />
-                </div>
+                </div> */}
 
                 {/* MOVED TO HOME PAGE */}
 
