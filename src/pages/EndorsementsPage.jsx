@@ -10,7 +10,7 @@ const EndorsementsPage = () => {
 
                 <div style={{ width: '999px', maxWidth: '100%' }}>
                     <div className="endorsements-card">
-                        <p>We're proud to be endorsed by a coalition of community leaders, educators, and advocates who share our vision for better education. Their support fuels our commitment to positive change in our schools. Thank you to our endorsers for joining us on this journey.</p>
+
                         <ul>
                             <li>
                                 <h4><span>☆</span> <strong>Kirk Pearson</strong>, <em>former State Senator 39th District</em></h4>
@@ -25,6 +25,7 @@ const EndorsementsPage = () => {
                                 <h4><span>☆</span> <strong>Carolyn Eslick</strong>, <em>39th District Rep.</em></h4>
                             </li>
                         </ul>
+                        <p><em>We're proud to be endorsed by a coalition of community leaders, educators, and advocates who share our vision for better education. Their support fuels our commitment to positive change in our schools. Thank you to our endorsers for joining us on this journey.</em></p>
                     </div>
                 </div>
 
