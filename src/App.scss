@@ -206,14 +206,16 @@ header {
     padding: 1rem;
     display: flex;
     align-items: center;
-    width: 100%;
+    // width: 100%;
+    width: 999px;
     height: auto;
     max-width: 100%;
     justify-content: center;
 
     img {
-        max-height: 222px;
-        max-width: 25%;
+        // max-height: 222px;
+        max-height: 333px;
+        max-width: 26%;
         height: auto;
     }
 
