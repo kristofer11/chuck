@@ -706,13 +706,13 @@ header {
 
 .contact-sign-div {
     width: 100%;
-    background-color: var(--logo-text-dark);
     max-width: 100%;
 
     .contact-sign {
-        width: 777px;
-        max-width: 100%;
-        padding-block: 1rem;
+        width: 444px;
+        max-width: 92%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        margin: 2rem 1rem;
     }
 }
 
