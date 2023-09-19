@@ -18,7 +18,7 @@ const Contact = () => {
             <h2 className='section-heading contact-section-2-heading'>Support the Campaign</h2>
             <div className='contact-text'>
                 <p>
-                    Your support is greatly appreciated! To make a contribution and help us further our mission, please reach out to us via <a className='email-link' href='mailto:whitfieldforeducation@gmail.com'  >email</a>. We'll be more than happy to provide you with the necessary guidance on how to donate. Your generosity fuels our campaign and makes a significant impact on our community. We extend our heartfelt gratitude for considering contributing to our cause.
+                    Your support is greatly appreciated! To make a contribution and help us further our mission, please reach out to us via <a className='email-link' href="mailto:whitfieldforeducation@gmail.com?subject=Campaign Donation for Chuck Whitfield&body=I would like to support Chuck Whitfield's Monroe School District campaign. Please send me information on how to donate and/or get involved.">email</a>. We will promptly send instructions on how to contribute. Your generosity fuels our campaign and makes a significant impact on our community. We extend our heartfelt gratitude for considering contributing to our cause.
                 </p>
                 <img className='d-none d-lg-block' src={Sign} />
             </div>

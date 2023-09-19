@@ -42,7 +42,7 @@ const AboutChuck = () => {
                         My values, my commitment to education, and my community service have led me to pursue a role on the Monroe School Board. I welcome your questions, feedback, and support. Please don't hesitate to reach out via email, and if you're interested in supporting my campaign, your contribution will be genuinely appreciated. Together, we can shape a brighter future for Monroe's students and our entire community.
                     </p>
                     <div className='family-link-div'>
-                        <Link to='/whitfield-family' ><div className='w-family-link' id='w-family-link' ><em>Read more about the Whitfield family legcacy in Monroe</em></div></Link>
+                        <Link to='/whitfield-family' ><div className='w-family-link' id='w-family-link'><em>Read more about the Whitfield family legcacy in Monroe</em></div></Link>
                     </div>
                 </div>
                 {/* <div className='d-flex about-chuck-text-2 align-items-center'>
