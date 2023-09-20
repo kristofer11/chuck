@@ -25,7 +25,7 @@ const HomePriorities = () => {
                 <details>
                     <summary>Create conditions for students and staff success</summary>
                     <ul>
-                        <li>Support teacher sand staff with professional development.</li>
+                        <li>Support teachers and staff with professional development.</li>
                         <li> Provide for safety and security</li>
                         <li>Rigorous curriculum, technology & quality facilities.</li>
                         <li>Adopt an annual budget that allocates resources based on the district's goals and priorities.</li>
