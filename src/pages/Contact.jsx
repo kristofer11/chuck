@@ -24,7 +24,7 @@ const Contact = () => {
 
                 <img className='d-none d-lg-block' src={Sign} />
             </div>
-            <div className='family-link-div mt-2 mb-4'>
+            <div className='family-link-div my-4 mb-5'>
                 <a href="mailto:whitfieldforeducation@gmail.com?subject=Campaign Donation for Chuck Whitfield&body=I would like to support Chuck Whitfield's Monroe School District campaign. Please send me information on how to donate and/or get involved." ><div className='w-family-link' id='w-family-link'><em>Donate to the campaign</em></div></a>
             </div>
             {/* <div className='contact-sign-div d-block d-lg-none'>
