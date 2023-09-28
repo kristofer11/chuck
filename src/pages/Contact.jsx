@@ -18,11 +18,7 @@ const Contact = () => {
 
 
             <h2 className='section-heading contact-section-2-heading'>Support the Campaign</h2>
-            <form action="https://www.paypal.com/donate" method="post" target="_top">
-                <input type="hidden" name="hosted_button_id" value="B7AX9CBL7BEZA" />
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-            </form>
+
 
             <div className='contact-text'>
                 <div>
@@ -40,16 +36,14 @@ const Contact = () => {
                 <img className='d-none d-lg-block' src={Sign} />
             </div>
 
+            <div className='family-link-div my-4 mb-5'>
+                <a href="https://secure.anedot.com/whitfieldforeducation/donate" ><div className='w-family-link'><em>Donate to the campaign</em></div></a>
+            </div>
 
-
-            {/* <a href="https://www.paypal.com/donate/?hosted_button_id=B7AX9CBL7BEZA"><img src={PayPal} width='333' /></a> */}
-
-            {/* <div className='family-link-div my-4 mb-5'>
-                <a href="mailto:whitfieldforeducation@gmail.com?subject=Campaign Donation for Chuck Whitfield&body=I would like to support Chuck Whitfield's Monroe School District campaign. Please send me information on how to donate and/or get involved." ><div className='w-family-link' id='w-family-link'><em>Donate to the campaign</em></div></a>
-            </div> */}
             {/* <div className='contact-sign-div d-block d-lg-none'>
                 <img src={Sign} className='contact-sign' />
-            </div> */}
+                </div> */}
+
         </section>
     )
 }
