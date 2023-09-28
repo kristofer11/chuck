@@ -57,11 +57,24 @@ header {
             .navbar-nav {
                 align-items: end;
 
+                .donate-link-header{
+                    background-color: var(--accent-color-green);
+                    border-radius: 6px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+                    color: var(--main-text-light) !important;
+                    padding-inline: 1rem;
+
+                    &:hover{
+                        text-decoration: underline !important;
+                    }
+                }                
+
                 a,
                 .nav-link {
                     color: var(--logo-text-dark);
                     font-size: 1.5rem;
                     font-weight: 500;
+
 
                     &:hover {
                         transform: scale(1.05);
@@ -379,7 +392,7 @@ header {
 
     ul li:before {
         content: '✓ ';
-        color: var(--logo-text-light);
+        color: var(--accent-color-green);
         font-size: 1.4rem;
     }
 

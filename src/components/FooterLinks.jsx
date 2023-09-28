@@ -16,9 +16,9 @@ const FooterLinks = () => {
                 <Link to='/contact'>
                     <div className='footer-link'>Contact</div>
                 </Link>
-                <Link to="https://www.paypal.com/donate/?hosted_button_id=R3VRYUX2FKVHE">
+                {/* <Link to="https://www.paypal.com/donate/?hosted_button_id=R3VRYUX2FKVHE">
                     <div className='footer-link'>Donate</div>
-                </Link>
+                </Link> */}
             </nav>
         </div>
     )

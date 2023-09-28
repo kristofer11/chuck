@@ -44,10 +44,10 @@ const Header = () => {
                             </ScrollLink> */}
 
                             <Nav.Link href="/contact">Contact</Nav.Link>
-                            <Nav.Link href="https://secure.anedot.com/whitfieldforeducation/donate">Donate</Nav.Link>
+                            <Nav.Link href="https://secure.anedot.com/whitfieldforeducation/donate" className='donate-link-header' >Donate</Nav.Link>
 
                             {/* <Nav.Link href="#home-priorities">Priorities</Nav.Link> */}
-                            <Nav.Link href="https://www.facebook.com/profile.php?id=100094757426779" target="_blank" ><img src={FbLogo} className='fb-logo' /></Nav.Link>
+                            {/* <Nav.Link href="https://www.facebook.com/profile.php?id=100094757426779" target="_blank" ><img src={FbLogo} className='fb-logo' /></Nav.Link> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

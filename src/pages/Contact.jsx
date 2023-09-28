@@ -26,7 +26,7 @@ const Contact = () => {
                         Your support is greatly appreciated! To make a contribution and help us further our mission, you can click the donate button, which will take you to our PayPal page.
 
                     </p>
-                    <p><em style={{ color: 'black' }}>We are required to collect the name, address and occupation of all donors, so please include that information.</em></p>
+                    <p><em style={{ color: 'black' }}>Please note that we are required to collect the name, address and occupation of all donors. Thank you for your understanding.</em></p>
                     {/* <p>
                     Your generosity fuels our campaign and makes a significant impact on our community. We extend our heartfelt gratitude for considering contributing to our cause.
                 </p>                     */}
@@ -37,7 +37,7 @@ const Contact = () => {
             </div>
 
             <div className='family-link-div my-4 mb-5'>
-                <a href="https://secure.anedot.com/whitfieldforeducation/donate" ><div className='w-family-link'><em>Donate to the campaign</em></div></a>
+                <a href="https://secure.anedot.com/whitfieldforeducation/donate" ><div className='w-family-link'><em>Make a contribution</em></div></a>
             </div>
 
             {/* <div className='contact-sign-div d-block d-lg-none'>
