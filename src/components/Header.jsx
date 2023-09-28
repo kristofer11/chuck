@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Sign from '../assets/images/Chuck for Schoolboard 2023.png';
 import FbLogo from '../assets/images/5296499_fb_facebook_facebook logo_icon.png';
-import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -43,7 +43,8 @@ const Header = () => {
                                 <Nav.Link>Endorsements</Nav.Link>
                             </ScrollLink> */}
 
-                            <Nav.Link href="/contact">Contact/Donate</Nav.Link>
+                            <Nav.Link href="/contact">Contact</Nav.Link>
+                            <Nav.Link href="https://www.paypal.com/donate/?hosted_button_id=B7AX9CBL7BEZA">Donate</Nav.Link>
 
                             {/* <Nav.Link href="#home-priorities">Priorities</Nav.Link> */}
                             <Nav.Link href="https://www.facebook.com/profile.php?id=100094757426779" target="_blank" ><img src={FbLogo} className='fb-logo' /></Nav.Link>

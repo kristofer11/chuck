@@ -2,6 +2,7 @@ import Sign from '../assets/images/Chuck for Schoolboard 2023.png';
 import Headshot from '../assets/images/hero.jpg';
 import { Link } from 'react-router-dom';
 import FooterLinks from '../components/FooterLinks';
+import PayPal from '../assets/images/PayPal_Logo_Horizontal_Full_Color_RGB.png';
 
 
 const Contact = () => {
@@ -11,22 +12,41 @@ const Contact = () => {
             <div style={{ width: '100%', backgroundColor: '#005EB0', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <div className="contact-text-1">
                     <img src={Headshot} className='contact-headshot' />
-                    <p className='contact-text-p-1'>We value your input! Your feedback is important in shaping the future of our community's education, so Chuck welcomes your thoughts, concerns, and questions. Feel free to send an <a className='email-link' href='mailto:whitfieldforeducation@gmail.com' >email</a>! </p>
+                    <p className='contact-text-p-1'>We value your input! Your feedback is important in shaping the future of our community's education, so Chuck welcomes your thoughts, concerns, and questions. Feel free to send an <a className='email-link' href='mailto:whitfieldforeducation@gmail.com' >email</a> to <a className='email-link' href='mailto:whitfieldforeducation@gmail.com' >WhitfieldForEducation@gmail.com</a></p>
                 </div>
             </div>
 
 
             <h2 className='section-heading contact-section-2-heading'>Support the Campaign</h2>
+            <form action="https://www.paypal.com/donate" method="post" target="_top">
+                <input type="hidden" name="hosted_button_id" value="B7AX9CBL7BEZA" />
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+
             <div className='contact-text'>
-                <p>
-                    Your support is greatly appreciated! To make a contribution and help us further our mission, please reach out to us via <a className='email-link' href="mailto:whitfieldforeducation@gmail.com?subject=Campaign Donation for Chuck Whitfield&body=I would like to support Chuck Whitfield's Monroe School District campaign. Please send me information on how to donate and/or get involved.">email</a>. We will promptly send instructions on how to contribute. Your generosity fuels our campaign and makes a significant impact on our community. We extend our heartfelt gratitude for considering contributing to our cause.
-                </p>
+                <div>
+                    <p>
+                        Your support is greatly appreciated! To make a contribution and help us further our mission, you can click the donate button, which will take you to our PayPal page.
+
+                    </p>
+                    <p><em style={{ color: 'black' }}>We are required to collect the name, address and occupation of all donors, so please include that information.</em></p>
+                    {/* <p>
+                    Your generosity fuels our campaign and makes a significant impact on our community. We extend our heartfelt gratitude for considering contributing to our cause.
+                </p>                     */}
+                </div>
+
 
                 <img className='d-none d-lg-block' src={Sign} />
             </div>
-            <div className='family-link-div my-4 mb-5'>
+
+
+
+            {/* <a href="https://www.paypal.com/donate/?hosted_button_id=B7AX9CBL7BEZA"><img src={PayPal} width='333' /></a> */}
+
+            {/* <div className='family-link-div my-4 mb-5'>
                 <a href="mailto:whitfieldforeducation@gmail.com?subject=Campaign Donation for Chuck Whitfield&body=I would like to support Chuck Whitfield's Monroe School District campaign. Please send me information on how to donate and/or get involved." ><div className='w-family-link' id='w-family-link'><em>Donate to the campaign</em></div></a>
-            </div>
+            </div> */}
             {/* <div className='contact-sign-div d-block d-lg-none'>
                 <img src={Sign} className='contact-sign' />
             </div> */}

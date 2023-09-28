@@ -14,7 +14,10 @@ const FooterLinks = () => {
                     <div className='footer-link'>Endorsements</div>
                 </Link>
                 <Link to='/contact'>
-                    <div className='footer-link'>Contact/Donate</div>
+                    <div className='footer-link'>Contact</div>
+                </Link>
+                <Link to="https://www.paypal.com/donate/?hosted_button_id=R3VRYUX2FKVHE">
+                    <div className='footer-link'>Donate</div>
                 </Link>
             </nav>
         </div>

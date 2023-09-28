@@ -734,8 +734,6 @@ header {
         &:hover {
             color: var(--logo-text-dark);
             text-decoration: underline;
-            background-color: lightgray;
-
         }
     }
 }
@@ -765,10 +763,8 @@ header {
             overflow-wrap: break-word;
 
             &:hover {
-                color: var(--logo-text-dark);
+                color: var(--main-text-light);
                 text-decoration: underline;
-                background-color: lightgray;
-
             }
 
         }
