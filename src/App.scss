@@ -63,6 +63,7 @@ header {
                     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
                     color: var(--main-text-light) !important;
                     padding-inline: 1rem;
+                    margin: 0.5rem 0 0 1rem;
 
                     &:hover{
                         text-decoration: underline !important;
@@ -403,12 +404,12 @@ header {
         margin-block: 0.65rem;
 
         ul {
-            background-color: var(--logo-text-dark);
+            background-color: var(--bg-light);
             border-radius: 11px;
             margin-top: 0.5rem;
 
             li {
-                color: var(--main-text-light)
+                color: var(--main-text-dark);
             }
         }
 
