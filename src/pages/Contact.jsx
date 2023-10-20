@@ -1,9 +1,6 @@
 import Sign from '../assets/images/Chuck for Schoolboard 2023.png';
 import Headshot from '../assets/images/hero.jpg';
-import { Link } from 'react-router-dom';
-import FooterLinks from '../components/FooterLinks';
-import PayPal from '../assets/images/PayPal_Logo_Horizontal_Full_Color_RGB.png';
-
+import HomeImages from '../components/HomeImages'
 
 const Contact = () => {
     return (
@@ -16,7 +13,7 @@ const Contact = () => {
                 </div>
             </div>
 
-
+            <HomeImages />
             <h2 className='section-heading contact-section-2-heading'>Support the Campaign</h2>
 
 
