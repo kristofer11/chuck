@@ -40,7 +40,7 @@ const Contact = () => {
                 transition={{ duration: 0.5 }}
                 ref={ref2}
             >
-                <div style={{ width: '100%', backgroundColor: '#005EB0', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <div style={{ width: '100vw', backgroundColor: '#005EB0', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                     <div className="contact-text-1">
                         <img src={Headshot} className='contact-headshot' />
                         <p className='contact-text-p-1'>We value your input! Your feedback is important in shaping the future of our community's education, so Chuck welcomes your thoughts, concerns, and questions. Feel free to send an <a className='email-link' href='mailto:whitfieldforeducation@gmail.com' >email</a> to <a className='email-link' href='mailto:whitfieldforeducation@gmail.com' >WhitfieldForEducation@gmail.com</a></p>
@@ -68,14 +68,15 @@ const Contact = () => {
                 animate={inView1 ? { opacity: 1 } : {}}
                 transition={{ duration: 0.5 }}
                 ref={ref1}
+                style={{overflow: 'hidden'}}
             >
                 <div className='contact-text'>
-                    <div>
+                    <div className='suuport-div'>
                         <p>
                             Your support is greatly appreciated! To make a contribution and help us further our mission, you can click the donate button, which will take you to our PayPal page.
 
                         </p>
-                        <p><em style={{ color: 'black' }}>Please note that we are required to collect the name, address and occupation of all donors. Thank you for your understanding.</em></p>
+                        <p><em style={{ color: 'black', maxWidth: '100vw' }}>Please note that we are required to collect the name, address and occupation of all donors. Thank you for your understanding.</em></p>
                         {/* <p>
                     Your generosity fuels our campaign and makes a significant impact on our community. We extend our heartfelt gratitude for considering contributing to our cause.
                 </p>                     */}

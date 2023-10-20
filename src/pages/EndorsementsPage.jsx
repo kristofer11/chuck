@@ -35,7 +35,7 @@ const EndorsementsPage = () => {
             >
                 <div className="endorsements-text">
 
-                    <div style={{ width: '999px', maxWidth: '100%' }}>
+                    <div >
                         <div className="endorsements-card">
 
                             <ul>
@@ -55,7 +55,7 @@ const EndorsementsPage = () => {
                                     <h4><span>☆</span> <strong>Carolyn Eslick</strong>, <em>39th District Rep.</em></h4>
                                 </li>
                             </ul>
-                            <p><em>We're proud to be endorsed by a coalition of community leaders and advocates who share our vision for better education. Their support fuels our commitment to positive change in our schools. Thank you to our endorsers for joining us on this journey.</em></p>
+                            <p className="endorsements-card-para"><em>We're proud to be endorsed by a coalition of community leaders and advocates who share our vision for better education. Their support fuels our commitment to positive change in our schools. Thank you to our endorsers for joining us on this journey.</em></p>
                         </div>
                     </div>
 
