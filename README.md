@@ -8,7 +8,7 @@ This React project, built with Vite, serves as a campaign website for a local po
 
 - **Scroll-Based Animations**: Framer Motion is used to add elegant scroll-based animations. Content elements fade in as users scroll down the page, creating a visually appealing and interactive experience.
 
-- **YouTube Integration**: A YouTube channel was created for the candidate, and the website features embedded videos. Custom thumbnails were designed for these videos to enhance their visibility and attractiveness on the homepage.
+- **YouTube Integration**: A YouTube channel was created for the candidate, and the website features embedded videos. Custom thumbnails, designed using Canva, were added to these videos to enhance their visibility and attractiveness on the homepage.
 
 - **Responsive Design**: Media queries were implemented to ensure that the website adapts to various screen sizes and devices, providing a consistent and user-friendly experience on both desktop and mobile.
 
