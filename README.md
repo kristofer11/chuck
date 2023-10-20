@@ -1,5 +1,5 @@
 # Political Candidate Campaign Website
-[Live Project](whitfieldforeducation.com)
+[Live Project](https://whitfieldforeducation.com)
 ![Screenshot of the homepage of whitfieldforeducation.com](https://krishvattum.com/static/media/chuckSiteScreenshot.097740f71f7d825d7786.png)
 
 This React project, built with Vite, serves as a campaign website for a local political candidate running for office in an upcoming election. The website offers various features and technologies to create an engaging and user-friendly experience for visitors.
