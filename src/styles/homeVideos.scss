@@ -82,6 +82,9 @@ h2 {
 }
 
 @media (max-width: 768px) {
+    .video-card{
+        max-width: 90vw;
+    }
     .video{
         max-width: 100%;
         width: 768px;
