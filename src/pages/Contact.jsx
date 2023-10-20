@@ -65,10 +65,9 @@ const Contact = () => {
             </motion.div>
             <motion.div
                 initial={{ opacity: 0 }}
-                animate={inView1 ? { opacity: 1 } : {}}
+                animate={inView5 ? { opacity: 1 } : {}}
                 transition={{ duration: 0.5 }}
-                ref={ref1}
-                style={{overflow: 'hidden'}}
+                ref={ref5}
             >
                 <div className='contact-text'>
                     <div className='suuport-div'>
