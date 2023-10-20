@@ -9,7 +9,8 @@ const Home = () => {
   return (
     <>
         <Hero />
-        <HomeImages />
+        {/* <HomeImages /> */}
+        <FeaturedVideo source={'https://www.youtube.com/embed/FYsSjiyX0T4?si=AMXqWz8KdR5q0I2Q'} />
         <HomePriorities />
         <HomeVideos />
     </>

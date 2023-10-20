@@ -1,5 +1,5 @@
 import FbLogo from '../assets/images/5296499_fb_facebook_facebook logo_icon.png';
-import { Link } from 'react-router-dom';
+import HomeImages from '../components/HomeImages';
 
 const Footer = () => {
     const handleNavigation = (id) => {
